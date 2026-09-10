@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Project specific
+backend/data/students.db
+backend/models/*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db

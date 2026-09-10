@@ -1,0 +1,1001 @@
+student_id,name,email,branch,target_track,cgpa,tenth_percent,twelfth_percent,backlogs,python,sql,react,devops,internships,projects,comm_score,certifications,open_source_commits,aptitude_score,extracurriculars,is_placed
+STU0001,Mohit Joshi,mohit.joshi4@college.edu,ECE,Data Analyst,8.1,78,82,2,0,0,0,1,1,3,6,0,3,62,0,0
+STU0002,Karthik Desai,karthik.desai87@college.edu,CSE,QA,7.79,60,54,0,1,0,0,0,0,3,3,0,66,75,0,1
+STU0003,Aditi Reddy,aditi.reddy28@college.edu,ISE,Full-Stack,6.12,83,67,0,1,0,0,0,0,4,6,0,0,86,2,1
+STU0004,Asha Mishra,asha.mishra29@college.edu,MECH,Cloud/DevOps,5.91,81,83,0,0,0,0,0,0,1,3,2,0,56,2,0
+STU0005,Rahul Pandey,rahul.pandey44@college.edu,ECE,Data Analyst,7.89,76,66,0,0,1,1,0,1,0,6,0,0,86,0,0
+STU0006,Tanvi Desai,tanvi.desai12@college.edu,MECH,Full-Stack,6.17,68,84,2,1,0,0,0,1,2,8,1,82,56,1,1
+STU0007,Pranav Mehta,pranav.mehta6@college.edu,MECH,Full-Stack,7.6,77,76,0,1,0,0,0,0,0,9,0,25,87,4,0
+STU0008,Priya Kapoor,priya.kapoor81@college.edu,ECE,Data Analyst,6.86,85,76,1,1,1,0,0,0,2,4,2,0,75,1,0
+STU0009,Arjun Das,arjun.das99@college.edu,ECE,Full-Stack,7.09,71,73,0,1,1,0,1,2,1,6,0,0,55,0,1
+STU0010,Vikram Shetty,vikram.shetty36@college.edu,MECH,Cloud/DevOps,7.57,100,72,0,0,0,1,0,1,3,5,0,0,90,2,1
+STU0011,Divya Gowda,divya.gowda27@college.edu,ECE,Full-Stack,8.2,100,63,0,0,1,0,0,0,1,5,1,25,56,1,0
+STU0012,Tushar Thakur,tushar.thakur21@college.edu,MECH,QA,6.56,76,84,0,1,1,0,0,0,3,7,2,0,87,1,1
+STU0013,Mohit Das,mohit.das88@college.edu,ECE,Full-Stack,8.13,82,78,0,1,0,0,1,1,0,6,0,18,51,2,0
+STU0014,Arjun Chauhan,arjun.chauhan52@college.edu,ECE,Full-Stack,6.07,86,63,1,0,1,0,1,1,2,6,0,0,58,1,0
+STU0015,Aman Chauhan,aman.chauhan28@college.edu,MECH,QA,7.41,83,78,1,1,1,0,0,0,3,10,0,15,67,0,1
+STU0016,Kavya Mehta,kavya.mehta18@college.edu,ISE,Cloud/DevOps,7.23,87,80,0,1,1,0,0,1,1,9,0,29,71,2,1
+STU0017,Rachna Bansal,rachna.bansal47@college.edu,ISE,Data Analyst,6.44,81,75,0,1,1,0,0,0,1,10,2,21,73,4,1
+STU0018,Priya Gupta,priya.gupta15@college.edu,ISE,Data Analyst,8.12,100,81,1,1,1,1,0,0,0,9,1,14,61,2,0
+STU0019,Vivek Kumar,vivek.kumar50@college.edu,MECH,QA,8.32,63,69,1,0,1,1,0,1,0,7,0,62,97,2,1
+STU0020,Srishti Sharma,srishti.sharma88@college.edu,CSE,Cloud/DevOps,5.07,81,67,1,1,0,0,1,1,2,8,0,8,65,1,1
+STU0021,Neha Kapoor,neha.kapoor56@college.edu,ISE,QA,9.62,84,59,1,1,1,0,0,0,1,3,0,10,98,0,0
+STU0022,Varun Rao,varun.rao65@college.edu,CSE,Cloud/DevOps,4.0,69,71,0,0,1,0,0,0,2,6,1,23,83,0,0
+STU0023,Kavya Hegde,kavya.hegde98@college.edu,ISE,Full-Stack,7.74,73,75,0,1,1,0,0,0,2,8,2,23,68,4,1
+STU0024,Simran Patel,simran.patel15@college.edu,ECE,Cloud/DevOps,7.84,73,72,0,1,0,1,0,0,2,6,1,22,78,3,1
+STU0025,Ananya Thakur,ananya.thakur73@college.edu,CSE,Full-Stack,6.51,74,83,0,1,0,0,0,0,4,10,2,46,63,3,1
+STU0026,Rohan Iyer,rohan.iyer17@college.edu,MECH,Data Analyst,9.07,80,83,0,0,0,1,0,0,4,7,3,53,85,1,1
+STU0027,Ishita Pandey,ishita.pandey28@college.edu,ISE,Cloud/DevOps,6.29,67,88,1,1,1,0,0,0,2,9,0,8,82,0,0
+STU0028,Nitin Hegde,nitin.hegde57@college.edu,MECH,Full-Stack,8.0,74,65,0,0,1,0,1,1,0,6,0,38,62,4,0
+STU0029,Abhishek Kumar,abhishek.kumar44@college.edu,CSE,Data Analyst,6.64,77,78,2,1,1,0,0,0,2,6,0,40,81,2,0
+STU0030,Aarav Kumar,aarav.kumar91@college.edu,CSE,Data Analyst,7.37,84,83,0,0,1,0,1,0,3,4,1,24,70,2,1
+STU0031,Arjun Bhat,arjun.bhat10@college.edu,ISE,Cloud/DevOps,9.24,89,100,0,1,1,0,0,2,3,10,0,0,81,0,1
+STU0032,Pooja Iyer,pooja.iyer93@college.edu,MECH,Data Analyst,4.95,74,65,0,1,1,0,0,0,3,10,1,29,92,1,1
+STU0033,Kunal Nair,kunal.nair13@college.edu,CSE,QA,8.92,75,54,2,1,1,1,0,0,1,8,0,20,74,5,0
+STU0034,Swati Mishra,swati.mishra60@college.edu,CSE,Full-Stack,7.51,80,69,0,1,0,1,0,0,2,3,1,0,65,2,0
+STU0035,Riya Bhat,riya.bhat14@college.edu,ISE,Data Analyst,9.36,81,89,0,1,1,1,0,0,0,6,1,44,83,1,1
+STU0036,Tushar Dixit,tushar.dixit18@college.edu,MECH,Data Analyst,8.77,62,60,0,1,0,0,0,0,2,7,2,14,81,1,1
+STU0037,Nandini Thakur,nandini.thakur10@college.edu,MECH,Full-Stack,7.96,79,50,0,1,0,0,0,0,1,3,0,0,77,1,0
+STU0038,Anushka Sharma,anushka.sharma12@college.edu,ISE,Data Analyst,7.42,89,63,0,0,0,0,0,0,0,9,0,0,67,1,0
+STU0039,Simran Bhattacharya,simran.bhattacharya28@college.edu,MECH,Full-Stack,9.86,80,66,0,1,1,0,0,1,3,5,0,4,51,1,1
+STU0040,Ishaan Sharma,ishaan.sharma50@college.edu,ECE,QA,5.68,93,94,0,0,0,1,1,0,2,7,0,45,33,1,0
+STU0041,Swati Sinha,swati.sinha20@college.edu,ISE,Cloud/DevOps,6.59,65,67,0,0,1,0,0,1,2,6,0,62,85,3,1
+STU0042,Ananya Gupta,ananya.gupta96@college.edu,ECE,Full-Stack,6.26,78,64,0,1,1,0,1,1,1,3,0,5,60,0,0
+STU0043,Rachna Bhattacharya,rachna.bhattacharya65@college.edu,ISE,Full-Stack,6.79,71,75,0,1,1,0,0,2,3,4,2,0,62,2,1
+STU0044,Sneha Kumar,sneha.kumar77@college.edu,CSE,Data Analyst,7.62,87,54,0,1,0,0,0,0,1,9,0,0,81,2,0
+STU0045,Neha Thakur,neha.thakur75@college.edu,CSE,Full-Stack,7.42,67,67,0,0,0,0,1,0,3,9,0,37,81,2,1
+STU0046,Nitin Chauhan,nitin.chauhan34@college.edu,ISE,Cloud/DevOps,4.53,72,81,0,1,1,0,0,2,1,6,0,24,93,3,1
+STU0047,Varun Bansal,varun.bansal17@college.edu,ECE,QA,7.91,75,69,0,0,1,0,0,0,3,8,0,9,89,1,1
+STU0048,Rohan Sharma,rohan.sharma59@college.edu,CSE,Full-Stack,5.26,76,75,2,0,1,0,0,2,2,6,0,18,78,1,1
+STU0049,Dhruv Mehta,dhruv.mehta17@college.edu,ECE,Full-Stack,7.91,75,82,3,1,1,0,0,0,3,6,0,45,76,4,0
+STU0050,Divya Kapoor,divya.kapoor21@college.edu,MECH,Cloud/DevOps,8.75,74,71,0,1,0,0,0,1,2,3,1,0,74,1,1
+STU0051,Nitin Chopra,nitin.chopra85@college.edu,CSE,Data Analyst,5.37,94,82,0,0,1,0,0,0,3,7,2,50,78,4,1
+STU0052,Neha Desai,neha.desai96@college.edu,ISE,Cloud/DevOps,6.55,84,97,2,1,1,1,1,0,1,7,3,65,77,1,1
+STU0053,Vivek Bose,vivek.bose92@college.edu,ECE,Data Analyst,7.31,75,62,0,1,1,0,0,1,2,7,0,0,67,0,1
+STU0054,Dhruv Sinha,dhruv.sinha33@college.edu,CSE,Full-Stack,4.26,79,72,1,1,1,0,0,0,4,9,0,0,67,5,1
+STU0055,Anjali Singh,anjali.singh1@college.edu,ECE,Data Analyst,10.0,80,75,0,0,1,0,0,0,2,7,1,42,30,1,0
+STU0056,Rahul Dixit,rahul.dixit71@college.edu,MECH,Full-Stack,9.0,59,70,0,1,1,0,0,1,2,4,0,24,58,2,1
+STU0057,Rohan Menon,rohan.menon70@college.edu,CSE,Cloud/DevOps,8.37,68,68,0,1,0,0,0,1,3,5,2,47,54,1,1
+STU0058,Swati Iyer,swati.iyer6@college.edu,ECE,Cloud/DevOps,8.21,76,78,0,1,1,1,0,0,1,3,1,30,48,1,0
+STU0059,Pranav Bose,pranav.bose88@college.edu,ISE,Full-Stack,5.0,96,77,0,1,0,1,0,1,3,8,0,58,80,1,1
+STU0060,Srishti Mishra,srishti.mishra80@college.edu,ISE,Data Analyst,7.71,78,75,0,0,0,0,1,0,2,5,0,55,80,3,1
+STU0061,Sneha Mishra,sneha.mishra4@college.edu,ISE,Cloud/DevOps,7.81,89,94,1,0,1,0,0,0,0,9,0,8,72,2,0
+STU0062,Nitin Thakur,nitin.thakur35@college.edu,ISE,Full-Stack,6.77,65,63,0,1,0,0,0,1,4,9,1,27,47,0,1
+STU0063,Arjun Bhattacharya,arjun.bhattacharya29@college.edu,ISE,QA,10.0,79,88,0,0,0,1,0,1,2,8,0,24,77,2,1
+STU0064,Megha Das,megha.das29@college.edu,CSE,Data Analyst,8.25,64,66,0,1,0,1,0,0,2,9,2,31,79,2,1
+STU0065,Tanvi Raj,tanvi.raj9@college.edu,ECE,Cloud/DevOps,8.5,84,74,0,0,1,1,0,1,4,9,0,31,72,0,1
+STU0066,Meera Bhat,meera.bhat4@college.edu,CSE,Cloud/DevOps,6.2,90,74,1,1,1,0,1,0,2,5,0,0,89,3,1
+STU0067,Rachna Mehta,rachna.mehta5@college.edu,CSE,QA,7.28,75,92,0,0,1,1,0,0,0,8,2,29,70,3,1
+STU0068,Rishabh Pandey,rishabh.pandey78@college.edu,CSE,QA,6.88,94,100,0,1,1,1,0,0,3,6,0,8,57,1,1
+STU0069,Varun Singh,varun.singh91@college.edu,MECH,Full-Stack,6.3,72,74,0,0,1,0,1,1,0,6,0,61,60,0,0
+STU0070,Divya Pandey,divya.pandey9@college.edu,ECE,Cloud/DevOps,7.7,84,78,3,0,0,0,0,1,1,4,0,7,52,3,0
+STU0071,Megha Chopra,megha.chopra86@college.edu,MECH,Cloud/DevOps,6.5,84,68,0,0,1,0,0,0,3,9,0,25,86,2,1
+STU0072,Ravi Kapoor,ravi.kapoor71@college.edu,ISE,Data Analyst,7.29,72,58,0,1,0,0,0,1,0,9,2,0,56,2,0
+STU0073,Nitin Shetty,nitin.shetty87@college.edu,ISE,Cloud/DevOps,6.91,90,83,2,0,1,1,0,1,3,9,1,25,82,2,1
+STU0074,Srishti Sharma,srishti.sharma39@college.edu,ECE,Data Analyst,9.16,86,72,0,0,1,0,1,1,2,9,0,31,47,5,1
+STU0075,Rachna Chauhan,rachna.chauhan60@college.edu,MECH,QA,5.87,87,82,3,1,0,1,0,2,1,6,1,18,76,0,0
+STU0076,Dhruv Bhattacharya,dhruv.bhattacharya95@college.edu,ISE,Full-Stack,8.79,69,76,0,0,1,0,1,2,4,7,1,22,62,0,1
+STU0077,Dhruv Bhat,dhruv.bhat12@college.edu,ISE,Cloud/DevOps,9.38,79,68,2,0,1,0,0,0,3,6,1,37,89,1,1
+STU0078,Siddharth Menon,siddharth.menon4@college.edu,CSE,Data Analyst,8.28,79,97,0,0,0,1,0,1,1,10,0,16,66,1,1
+STU0079,Pallavi Kumar,pallavi.kumar59@college.edu,MECH,Data Analyst,7.4,91,79,0,1,1,1,0,0,0,9,2,39,77,1,1
+STU0080,Simran Bansal,simran.bansal32@college.edu,ISE,Full-Stack,6.69,98,74,0,0,1,0,0,0,2,4,0,11,59,1,0
+STU0081,Swati Das,swati.das23@college.edu,MECH,Full-Stack,5.6,87,84,0,1,0,0,0,0,4,6,0,63,69,3,1
+STU0082,Neha Agarwal,neha.agarwal18@college.edu,MECH,Cloud/DevOps,7.23,80,77,0,0,0,0,0,0,1,10,1,34,79,1,1
+STU0083,Pallavi Pandey,pallavi.pandey71@college.edu,MECH,Data Analyst,9.18,89,75,0,1,1,1,1,0,3,10,0,17,84,3,1
+STU0084,Yash Mehta,yash.mehta97@college.edu,ISE,Cloud/DevOps,9.99,73,95,0,0,0,0,0,1,1,10,3,0,62,3,1
+STU0085,Mohit Thakur,mohit.thakur36@college.edu,MECH,Full-Stack,7.47,100,95,0,0,1,1,0,0,2,7,0,36,68,3,1
+STU0086,Shruti Raj,shruti.raj43@college.edu,ECE,Full-Stack,6.92,95,60,0,1,0,1,0,0,3,5,0,0,61,2,1
+STU0087,Kavya Das,kavya.das50@college.edu,ISE,Data Analyst,9.27,93,67,0,1,1,0,0,2,1,4,2,0,69,4,1
+STU0088,Kunal Mishra,kunal.mishra43@college.edu,MECH,QA,8.43,51,88,0,0,0,1,0,1,1,3,1,0,65,0,0
+STU0089,Pooja Mishra,pooja.mishra50@college.edu,CSE,QA,7.59,67,86,0,1,0,0,0,0,1,10,0,31,88,1,1
+STU0090,Aarav Gowda,aarav.gowda39@college.edu,MECH,QA,7.96,84,87,0,0,0,0,0,0,4,6,0,12,54,4,1
+STU0091,Simran Das,simran.das35@college.edu,MECH,QA,7.59,60,85,0,1,1,0,0,0,0,3,0,0,79,2,0
+STU0092,Ishaan Bhat,ishaan.bhat86@college.edu,MECH,Data Analyst,6.75,99,72,0,1,1,1,0,0,2,10,2,6,71,4,1
+STU0093,Karthik Patel,karthik.patel51@college.edu,CSE,Full-Stack,8.83,91,82,0,0,1,0,0,2,0,9,3,35,66,3,1
+STU0094,Karthik Agarwal,karthik.agarwal24@college.edu,CSE,Cloud/DevOps,9.44,84,72,1,0,1,1,0,1,2,9,2,17,54,0,1
+STU0095,Rishabh Bose,rishabh.bose59@college.edu,ECE,Cloud/DevOps,6.18,65,94,0,0,0,0,0,0,0,9,1,36,93,1,0
+STU0096,Anjali Mishra,anjali.mishra33@college.edu,CSE,QA,8.68,76,45,3,0,0,0,0,0,2,3,1,28,78,3,0
+STU0097,Tushar Gupta,tushar.gupta45@college.edu,ISE,Full-Stack,8.41,82,76,0,0,1,0,0,0,1,3,0,34,60,2,0
+STU0098,Aditi Thakur,aditi.thakur26@college.edu,CSE,Data Analyst,8.6,64,63,1,1,0,0,0,0,2,6,1,18,55,1,0
+STU0099,Karthik Bhattacharya,karthik.bhattacharya86@college.edu,CSE,Data Analyst,7.48,85,77,2,0,1,1,0,1,3,10,0,24,50,1,0
+STU0100,Ravi Mehta,ravi.mehta99@college.edu,ECE,Data Analyst,6.01,73,66,1,1,0,0,0,1,2,4,1,25,58,4,0
+STU0101,Rahul Chopra,rahul.chopra14@college.edu,CSE,Cloud/DevOps,7.28,78,75,0,1,1,0,0,0,2,9,3,23,58,1,1
+STU0102,Riya Nair,riya.nair10@college.edu,ISE,Full-Stack,9.51,74,81,2,0,0,0,1,0,1,7,0,3,67,2,0
+STU0103,Meera Joshi,meera.joshi73@college.edu,CSE,Cloud/DevOps,7.78,64,78,1,1,0,0,0,2,2,9,1,9,95,0,1
+STU0104,Nitin Hegde,nitin.hegde9@college.edu,ECE,Full-Stack,8.17,80,81,0,0,1,0,0,1,1,9,1,4,48,0,0
+STU0105,Simran Desai,simran.desai56@college.edu,ECE,QA,8.96,81,100,0,0,1,0,1,1,3,5,0,0,56,1,1
+STU0106,Swati Rao,swati.rao94@college.edu,ECE,QA,5.3,85,61,0,1,1,1,0,2,3,10,0,6,87,4,1
+STU0107,Swati Raj,swati.raj42@college.edu,ISE,Full-Stack,7.82,83,66,1,0,0,0,0,0,4,7,1,10,72,4,1
+STU0108,Yash Thakur,yash.thakur97@college.edu,MECH,QA,7.47,88,91,0,0,1,0,0,0,0,8,0,25,70,1,0
+STU0109,Aditi Sinha,aditi.sinha42@college.edu,ISE,QA,7.58,60,63,0,1,0,0,0,0,0,6,1,1,69,5,0
+STU0110,Pranav Mehta,pranav.mehta44@college.edu,ECE,Cloud/DevOps,7.68,76,67,0,1,0,0,1,1,2,3,0,24,100,1,1
+STU0111,Ishita Nair,ishita.nair11@college.edu,ISE,QA,5.86,77,60,0,1,1,1,0,0,2,10,0,32,58,0,0
+STU0112,Srishti Thakur,srishti.thakur89@college.edu,MECH,QA,5.73,81,74,0,0,1,0,1,0,2,10,0,38,57,1,0
+STU0113,Aditi Reddy,aditi.reddy38@college.edu,ISE,QA,5.85,63,92,0,1,1,1,0,1,2,6,0,13,83,2,1
+STU0114,Megha Hegde,megha.hegde61@college.edu,ECE,QA,8.39,82,90,2,0,1,0,0,0,2,8,0,19,63,0,0
+STU0115,Pranav Agarwal,pranav.agarwal35@college.edu,ECE,Cloud/DevOps,5.88,70,89,0,1,0,0,0,1,3,6,0,27,89,1,1
+STU0116,Neha Nair,neha.nair41@college.edu,CSE,Data Analyst,7.11,77,90,0,1,1,0,1,1,1,6,3,44,96,3,1
+STU0117,Pooja Bhattacharya,pooja.bhattacharya36@college.edu,ECE,Full-Stack,8.15,90,70,0,1,0,0,0,0,2,6,2,5,65,0,1
+STU0118,Nikhil Das,nikhil.das47@college.edu,ISE,Cloud/DevOps,7.87,88,85,0,1,1,1,0,1,2,3,2,32,81,2,1
+STU0119,Asha Iyer,asha.iyer36@college.edu,CSE,Full-Stack,7.72,67,79,0,1,0,0,1,1,2,7,1,0,71,2,1
+STU0120,Ravi Iyer,ravi.iyer82@college.edu,MECH,Full-Stack,8.4,83,90,1,0,0,0,0,1,4,3,0,40,63,1,1
+STU0121,Aman Kapoor,aman.kapoor61@college.edu,MECH,QA,9.5,83,60,0,0,1,0,0,1,0,8,1,0,53,0,0
+STU0122,Sneha Gupta,sneha.gupta33@college.edu,MECH,Full-Stack,8.37,76,95,0,1,1,0,0,1,0,4,1,38,61,0,0
+STU0123,Riya Sinha,riya.sinha10@college.edu,CSE,Data Analyst,6.84,100,68,0,1,1,0,0,1,3,5,0,14,89,0,1
+STU0124,Aman Chopra,aman.chopra11@college.edu,ISE,Full-Stack,7.3,75,83,1,1,1,0,0,0,2,9,0,24,49,3,0
+STU0125,Vivek Das,vivek.das67@college.edu,MECH,QA,6.27,98,89,0,0,0,1,0,0,2,10,0,0,52,0,0
+STU0126,Megha Pandey,megha.pandey40@college.edu,CSE,Full-Stack,7.67,62,78,0,0,0,1,1,0,3,6,0,0,69,0,0
+STU0127,Mohit Bose,mohit.bose34@college.edu,CSE,Data Analyst,7.47,97,94,0,1,0,0,0,1,2,6,3,0,56,1,1
+STU0128,Sneha Kumar,sneha.kumar21@college.edu,CSE,QA,7.23,83,85,0,1,1,0,0,0,0,10,2,17,53,1,0
+STU0129,Ravi Bhattacharya,ravi.bhattacharya38@college.edu,CSE,Data Analyst,8.38,77,75,0,1,0,0,0,1,4,7,0,0,78,2,1
+STU0130,Asha Kapoor,asha.kapoor90@college.edu,MECH,Full-Stack,8.06,79,55,1,0,0,0,0,1,2,6,1,9,72,3,1
+STU0131,Varun Nair,varun.nair55@college.edu,CSE,Data Analyst,6.51,80,62,0,0,1,1,0,0,2,5,1,0,71,2,0
+STU0132,Anjali Menon,anjali.menon10@college.edu,CSE,Data Analyst,7.28,93,67,0,0,0,1,0,0,3,7,2,7,77,1,1
+STU0133,Vivek Kapoor,vivek.kapoor57@college.edu,CSE,QA,8.56,79,72,4,0,1,1,0,1,4,7,0,0,73,3,0
+STU0134,Ravi Bansal,ravi.bansal35@college.edu,MECH,QA,9.75,90,69,1,1,1,0,0,1,1,4,2,9,77,5,1
+STU0135,Vivek Singh,vivek.singh56@college.edu,ECE,Cloud/DevOps,7.1,75,63,0,1,1,0,1,1,2,3,3,20,69,2,1
+STU0136,Priya Das,priya.das87@college.edu,CSE,Cloud/DevOps,6.23,84,72,1,0,0,0,0,1,3,3,0,0,78,4,0
+STU0137,Sneha Bhattacharya,sneha.bhattacharya67@college.edu,MECH,Cloud/DevOps,7.7,93,62,1,1,1,0,0,0,3,5,0,25,57,3,0
+STU0138,Rachna Pandey,rachna.pandey82@college.edu,MECH,Full-Stack,7.21,76,70,0,1,1,0,0,0,3,10,0,15,72,0,1
+STU0139,Pranav Mishra,pranav.mishra43@college.edu,ECE,Full-Stack,6.09,91,69,0,0,1,0,1,0,2,5,1,0,71,1,0
+STU0140,Tanvi Mishra,tanvi.mishra89@college.edu,MECH,Cloud/DevOps,8.12,81,79,0,1,1,0,1,1,2,9,0,0,35,4,1
+STU0141,Srishti Singh,srishti.singh59@college.edu,CSE,Cloud/DevOps,4.89,88,68,0,1,1,0,1,0,4,7,1,32,62,1,1
+STU0142,Rishabh Joshi,rishabh.joshi99@college.edu,MECH,Full-Stack,7.94,98,72,0,0,0,0,0,0,1,10,1,23,83,2,1
+STU0143,Kunal Gupta,kunal.gupta25@college.edu,ECE,QA,7.37,78,75,1,0,1,0,0,0,4,10,1,28,100,1,1
+STU0144,Ananya Bose,ananya.bose35@college.edu,ISE,Cloud/DevOps,6.72,61,81,2,1,0,0,0,0,3,10,0,0,70,1,0
+STU0145,Ravi Sinha,ravi.sinha16@college.edu,CSE,Data Analyst,10.0,78,76,0,1,1,0,0,0,1,5,0,10,38,0,0
+STU0146,Megha Sharma,megha.sharma71@college.edu,MECH,Full-Stack,5.69,87,75,0,0,0,0,0,0,1,6,2,24,100,1,1
+STU0147,Neha Agarwal,neha.agarwal16@college.edu,ISE,QA,7.31,86,77,0,0,0,0,1,0,3,7,3,7,60,1,1
+STU0148,Dhruv Raj,dhruv.raj54@college.edu,MECH,QA,5.34,64,78,0,1,0,1,1,1,0,6,1,17,60,2,0
+STU0149,Nandini Menon,nandini.menon50@college.edu,ISE,Data Analyst,7.18,71,49,0,0,0,1,0,0,1,4,2,39,87,1,0
+STU0150,Anjali Mishra,anjali.mishra44@college.edu,ECE,Full-Stack,7.38,80,83,0,1,1,1,0,2,0,7,1,0,60,1,1
+STU0151,Megha Sinha,megha.sinha20@college.edu,MECH,QA,6.84,80,76,0,0,1,0,1,1,2,8,1,0,53,3,1
+STU0152,Tanvi Shetty,tanvi.shetty59@college.edu,ECE,Data Analyst,9.17,77,78,0,1,0,0,0,0,2,6,1,0,92,0,1
+STU0153,Aman Shetty,aman.shetty30@college.edu,MECH,Full-Stack,6.17,77,71,1,0,0,0,0,0,0,8,0,37,52,2,0
+STU0154,Sameer Shetty,sameer.shetty50@college.edu,ISE,QA,6.02,74,74,0,1,0,0,0,0,4,3,0,0,64,0,0
+STU0155,Karthik Bhat,karthik.bhat13@college.edu,MECH,Full-Stack,7.19,95,81,0,0,1,0,1,1,3,10,3,0,47,1,1
+STU0156,Aarav Menon,aarav.menon53@college.edu,ISE,Full-Stack,6.07,81,95,3,1,1,0,0,0,1,10,0,0,57,5,0
+STU0157,Varun Bhat,varun.bhat80@college.edu,MECH,Full-Stack,5.12,87,62,0,1,1,0,0,2,3,8,1,54,86,1,1
+STU0158,Meera Shetty,meera.shetty41@college.edu,MECH,Full-Stack,6.94,78,100,0,0,1,1,0,0,3,4,0,7,74,3,1
+STU0159,Shruti Kapoor,shruti.kapoor30@college.edu,CSE,QA,8.25,76,79,0,1,1,0,0,0,1,4,1,19,33,1,0
+STU0160,Mohit Desai,mohit.desai57@college.edu,ISE,Cloud/DevOps,8.77,82,74,0,1,1,0,1,0,1,3,2,38,66,4,1
+STU0161,Arjun Chauhan,arjun.chauhan8@college.edu,ECE,Cloud/DevOps,8.21,50,82,0,0,0,0,0,1,1,8,0,37,62,1,0
+STU0162,Swati Menon,swati.menon32@college.edu,MECH,Data Analyst,8.64,85,83,0,1,0,1,0,1,3,5,2,0,73,1,1
+STU0163,Sneha Reddy,sneha.reddy79@college.edu,MECH,Data Analyst,7.3,72,66,0,0,0,1,1,0,4,10,1,5,66,2,1
+STU0164,Rachna Menon,rachna.menon30@college.edu,MECH,Cloud/DevOps,8.29,89,55,0,0,0,1,1,0,4,10,0,0,68,2,1
+STU0165,Varun Sharma,varun.sharma60@college.edu,ECE,Data Analyst,7.57,82,91,0,0,1,0,0,0,2,4,0,0,81,3,0
+STU0166,Yash Gowda,yash.gowda76@college.edu,ECE,QA,8.07,85,87,4,0,1,0,0,0,1,7,1,2,70,1,0
+STU0167,Nandini Chopra,nandini.chopra26@college.edu,MECH,QA,7.11,81,84,0,0,0,0,0,1,1,4,1,11,84,4,1
+STU0168,Shruti Shetty,shruti.shetty74@college.edu,ECE,Cloud/DevOps,7.97,78,78,0,1,0,0,0,0,1,7,1,18,71,3,0
+STU0169,Aditi Bansal,aditi.bansal36@college.edu,CSE,Full-Stack,7.61,81,67,0,1,1,0,0,2,2,10,0,0,66,1,1
+STU0170,Nikhil Das,nikhil.das78@college.edu,ECE,Data Analyst,6.89,78,69,2,1,1,0,0,0,3,6,0,34,94,1,1
+STU0171,Pallavi Mehta,pallavi.mehta87@college.edu,ISE,Full-Stack,7.95,70,64,1,1,0,1,0,1,1,3,0,0,71,3,0
+STU0172,Megha Dixit,megha.dixit5@college.edu,ECE,Data Analyst,7.23,70,44,0,1,1,0,0,2,2,4,1,36,59,3,1
+STU0173,Nikhil Chauhan,nikhil.chauhan96@college.edu,MECH,Data Analyst,8.03,80,83,0,0,0,0,0,1,2,6,0,34,49,5,1
+STU0174,Karthik Hegde,karthik.hegde68@college.edu,ECE,Data Analyst,7.71,82,72,2,0,0,0,0,0,2,7,1,1,69,5,0
+STU0175,Sameer Kapoor,sameer.kapoor96@college.edu,ECE,Full-Stack,7.53,82,59,0,0,0,0,0,0,1,10,2,0,93,2,1
+STU0176,Rohan Menon,rohan.menon97@college.edu,ISE,QA,6.53,67,72,0,1,1,1,0,0,0,8,1,0,67,5,0
+STU0177,Priya Bansal,priya.bansal2@college.edu,ECE,Full-Stack,5.57,81,99,0,0,0,1,0,0,2,10,0,10,51,1,0
+STU0178,Divya Mehta,divya.mehta75@college.edu,MECH,Cloud/DevOps,6.98,85,55,0,1,1,0,0,2,1,4,1,15,78,5,1
+STU0179,Meera Das,meera.das61@college.edu,CSE,Cloud/DevOps,6.73,84,96,0,0,1,0,0,0,3,6,0,27,66,1,1
+STU0180,Anushka Kumar,anushka.kumar82@college.edu,MECH,Cloud/DevOps,6.0,86,85,0,1,0,0,0,0,2,9,0,0,46,4,0
+STU0181,Neha Iyer,neha.iyer6@college.edu,CSE,Cloud/DevOps,6.72,93,92,0,1,1,0,0,1,1,10,1,42,51,1,1
+STU0182,Neha Desai,neha.desai31@college.edu,ISE,QA,7.52,70,70,1,1,1,0,0,0,3,10,0,30,65,4,1
+STU0183,Divya Mishra,divya.mishra76@college.edu,ISE,QA,7.27,89,73,2,1,0,0,0,0,3,4,0,15,80,1,0
+STU0184,Simran Mishra,simran.mishra36@college.edu,CSE,Cloud/DevOps,8.02,84,89,0,1,1,0,1,0,1,6,0,28,31,0,0
+STU0185,Yash Dixit,yash.dixit31@college.edu,ECE,Full-Stack,6.2,69,83,0,1,1,0,0,0,3,8,2,5,52,4,1
+STU0186,Tushar Gowda,tushar.gowda8@college.edu,MECH,Cloud/DevOps,6.78,94,95,1,0,1,1,0,1,2,6,3,0,81,3,1
+STU0187,Neha Agarwal,neha.agarwal12@college.edu,ISE,Full-Stack,7.04,82,98,4,0,1,1,0,1,2,3,2,36,83,4,1
+STU0188,Tanvi Thakur,tanvi.thakur17@college.edu,ISE,Full-Stack,8.51,73,68,0,0,1,1,0,1,2,6,2,0,68,0,1
+STU0189,Rachna Bose,rachna.bose30@college.edu,ECE,Data Analyst,8.33,88,71,0,1,0,1,1,0,1,3,1,18,89,5,1
+STU0190,Anjali Menon,anjali.menon17@college.edu,ECE,Data Analyst,7.51,73,83,0,0,1,0,0,0,3,4,0,0,54,4,0
+STU0191,Nitin Patel,nitin.patel17@college.edu,CSE,Cloud/DevOps,8.77,86,83,0,1,1,1,0,1,0,6,1,0,53,1,0
+STU0192,Rachna Chauhan,rachna.chauhan3@college.edu,ISE,Cloud/DevOps,5.67,91,67,2,0,1,0,0,1,1,3,0,25,67,2,0
+STU0193,Karthik Mishra,karthik.mishra68@college.edu,CSE,Full-Stack,8.84,94,70,0,1,0,0,0,0,4,10,0,0,71,5,1
+STU0194,Yash Hegde,yash.hegde66@college.edu,CSE,QA,7.22,70,85,1,1,0,0,0,0,2,6,0,33,50,5,0
+STU0195,Pallavi Singh,pallavi.singh94@college.edu,ECE,QA,6.63,81,68,0,1,1,0,0,0,4,3,0,38,85,2,1
+STU0196,Ananya Bhattacharya,ananya.bhattacharya52@college.edu,MECH,Full-Stack,6.15,70,87,0,1,0,0,1,1,3,10,0,48,80,2,1
+STU0197,Asha Dixit,asha.dixit10@college.edu,CSE,Cloud/DevOps,7.22,79,56,0,1,1,0,1,0,2,5,3,0,67,3,1
+STU0198,Rohan Iyer,rohan.iyer36@college.edu,ECE,QA,7.34,88,69,0,1,0,0,0,1,1,7,1,22,78,0,1
+STU0199,Nandini Pandey,nandini.pandey13@college.edu,CSE,Data Analyst,6.56,73,64,0,0,0,1,0,1,0,9,3,23,76,3,1
+STU0200,Yash Das,yash.das53@college.edu,ECE,QA,7.59,87,80,0,1,1,0,0,0,4,9,1,0,74,1,1
+STU0201,Kunal Desai,kunal.desai41@college.edu,MECH,Cloud/DevOps,7.86,87,72,2,1,0,1,0,0,2,7,2,5,43,0,0
+STU0202,Divya Menon,divya.menon88@college.edu,MECH,Full-Stack,7.53,60,74,0,1,0,1,0,1,1,4,0,25,54,4,1
+STU0203,Priya Reddy,priya.reddy56@college.edu,CSE,Cloud/DevOps,8.18,89,71,0,0,0,0,0,0,1,5,2,1,85,4,1
+STU0204,Srishti Gupta,srishti.gupta76@college.edu,ECE,Full-Stack,7.35,83,76,0,1,1,0,0,0,2,9,0,23,82,3,1
+STU0205,Pranav Pandey,pranav.pandey93@college.edu,CSE,Cloud/DevOps,8.0,86,99,0,0,1,0,0,0,1,7,0,17,96,0,0
+STU0206,Pranav Desai,pranav.desai74@college.edu,ISE,Data Analyst,6.65,67,72,0,1,1,0,0,0,1,10,0,17,76,2,0
+STU0207,Abhishek Desai,abhishek.desai45@college.edu,ECE,Full-Stack,5.6,61,97,0,1,0,0,0,1,2,7,1,20,56,0,1
+STU0208,Aman Das,aman.das55@college.edu,CSE,Cloud/DevOps,6.43,75,63,0,0,1,0,0,0,0,3,1,14,58,2,0
+STU0209,Sneha Raj,sneha.raj90@college.edu,ECE,Cloud/DevOps,9.26,89,78,2,1,1,1,0,0,3,8,0,21,65,4,1
+STU0210,Aarav Rao,aarav.rao19@college.edu,MECH,Full-Stack,6.54,79,89,0,1,0,0,1,0,2,5,3,18,61,0,1
+STU0211,Mohit Patel,mohit.patel12@college.edu,ISE,QA,8.94,75,52,0,0,0,0,0,0,2,9,1,40,84,0,1
+STU0212,Nandini Bhat,nandini.bhat21@college.edu,ECE,Cloud/DevOps,8.28,68,72,0,1,1,0,0,1,2,8,1,30,79,2,1
+STU0213,Aman Reddy,aman.reddy7@college.edu,ISE,Data Analyst,7.99,71,91,1,0,0,1,0,2,3,3,1,30,74,2,1
+STU0214,Meera Reddy,meera.reddy35@college.edu,MECH,QA,6.26,83,96,0,0,0,0,0,0,2,10,2,0,70,0,1
+STU0215,Vivek Dixit,vivek.dixit54@college.edu,ECE,Data Analyst,6.41,95,81,1,1,0,0,0,2,2,4,0,0,60,2,1
+STU0216,Pranav Pandey,pranav.pandey15@college.edu,ECE,QA,8.06,66,85,0,1,1,1,0,0,2,7,0,5,69,1,0
+STU0217,Arjun Das,arjun.das51@college.edu,CSE,Full-Stack,7.92,64,76,0,0,1,1,0,2,4,6,2,5,79,2,1
+STU0218,Megha Bose,megha.bose99@college.edu,ISE,Cloud/DevOps,8.41,86,62,0,0,0,1,0,0,2,7,0,41,79,0,0
+STU0219,Rishabh Joshi,rishabh.joshi1@college.edu,MECH,QA,7.96,90,99,1,1,1,0,1,1,2,5,1,0,61,2,1
+STU0220,Karthik Shetty,karthik.shetty69@college.edu,ISE,Cloud/DevOps,7.94,58,82,1,1,0,0,0,1,1,4,2,15,50,2,0
+STU0221,Riya Singh,riya.singh56@college.edu,CSE,QA,8.71,93,66,0,1,1,0,0,0,2,4,2,25,89,2,1
+STU0222,Rishabh Pandey,rishabh.pandey74@college.edu,MECH,QA,8.0,84,75,0,1,0,0,0,0,4,7,1,0,86,0,1
+STU0223,Neha Bansal,neha.bansal3@college.edu,ECE,Data Analyst,7.41,75,77,0,1,1,0,0,1,3,10,0,0,84,3,1
+STU0224,Ravi Hegde,ravi.hegde12@college.edu,MECH,Full-Stack,7.8,88,74,0,1,0,0,0,2,3,6,2,1,67,1,1
+STU0225,Swati Bansal,swati.bansal68@college.edu,CSE,QA,7.29,64,69,0,0,0,1,0,2,2,7,0,2,85,1,1
+STU0226,Tanvi Das,tanvi.das43@college.edu,ISE,Full-Stack,6.92,76,65,0,1,0,0,1,0,1,4,2,0,67,2,0
+STU0227,Ishita Nair,ishita.nair45@college.edu,ECE,Data Analyst,7.07,83,77,4,0,1,0,0,0,2,6,0,0,35,3,0
+STU0228,Vikram Menon,vikram.menon33@college.edu,ISE,Data Analyst,9.7,88,80,0,0,1,1,1,1,1,5,0,49,68,1,1
+STU0229,Anushka Kumar,anushka.kumar23@college.edu,MECH,QA,9.0,79,86,0,1,0,0,0,0,1,10,3,20,51,2,1
+STU0230,Meera Chauhan,meera.chauhan81@college.edu,ECE,Data Analyst,10.0,78,78,0,0,1,0,0,0,1,10,0,23,63,1,0
+STU0231,Rohan Bhattacharya,rohan.bhattacharya57@college.edu,ECE,Cloud/DevOps,6.17,82,89,0,0,0,0,1,1,1,3,1,1,59,4,0
+STU0232,Pranav Kumar,pranav.kumar40@college.edu,MECH,QA,6.49,71,81,1,1,0,0,0,0,2,3,2,1,59,4,0
+STU0233,Ananya Hegde,ananya.hegde37@college.edu,CSE,Full-Stack,4.81,58,67,0,1,0,0,1,1,1,9,2,3,53,2,1
+STU0234,Nandini Singh,nandini.singh58@college.edu,ISE,Cloud/DevOps,8.42,82,81,5,0,0,0,0,1,1,10,0,0,65,0,0
+STU0235,Dhruv Menon,dhruv.menon8@college.edu,MECH,Full-Stack,6.82,83,56,1,0,0,1,0,1,1,8,1,30,53,2,0
+STU0236,Asha Reddy,asha.reddy65@college.edu,ISE,Full-Stack,7.29,86,76,1,1,0,0,0,2,2,6,2,28,48,2,1
+STU0237,Asha Dixit,asha.dixit57@college.edu,ISE,Cloud/DevOps,8.54,75,64,1,0,1,0,0,1,2,8,3,0,50,0,1
+STU0238,Nikhil Shetty,nikhil.shetty53@college.edu,ECE,Full-Stack,5.53,76,86,0,1,0,0,1,0,0,8,0,0,74,5,0
+STU0239,Rohan Bhat,rohan.bhat13@college.edu,MECH,Cloud/DevOps,7.6,50,72,0,1,1,1,0,2,3,7,1,27,53,1,1
+STU0240,Nitin Menon,nitin.menon43@college.edu,CSE,Data Analyst,8.62,77,88,0,0,0,0,0,0,3,8,0,19,95,1,1
+STU0241,Megha Bansal,megha.bansal17@college.edu,CSE,Cloud/DevOps,5.21,79,58,2,0,0,0,1,0,3,9,1,53,82,4,1
+STU0242,Anushka Bhat,anushka.bhat17@college.edu,CSE,QA,5.51,70,73,0,1,0,0,1,0,0,8,1,23,100,0,0
+STU0243,Aditi Hegde,aditi.hegde40@college.edu,ISE,Data Analyst,7.81,67,79,0,1,1,0,1,0,1,8,0,17,65,1,0
+STU0244,Simran Nair,simran.nair29@college.edu,ISE,Data Analyst,8.17,66,80,0,0,1,1,0,0,1,4,2,0,60,0,0
+STU0245,Nikhil Desai,nikhil.desai65@college.edu,CSE,Cloud/DevOps,5.68,51,69,0,0,1,1,0,0,1,5,2,21,99,0,1
+STU0246,Vivek Shetty,vivek.shetty20@college.edu,ISE,Data Analyst,4.51,73,80,0,1,1,1,0,0,1,5,1,18,77,0,0
+STU0247,Yash Singh,yash.singh53@college.edu,ECE,Data Analyst,8.36,59,88,0,1,1,0,0,0,1,10,0,38,89,0,1
+STU0248,Pallavi Kapoor,pallavi.kapoor97@college.edu,MECH,Data Analyst,6.06,76,78,0,0,0,0,1,0,1,6,1,22,66,4,0
+STU0249,Megha Bhattacharya,megha.bhattacharya25@college.edu,ECE,QA,7.77,86,59,2,1,1,0,0,1,3,10,0,18,88,3,1
+STU0250,Nikhil Shetty,nikhil.shetty65@college.edu,MECH,Data Analyst,5.14,68,72,0,1,0,0,0,0,1,6,0,45,59,1,0
+STU0251,Vivek Iyer,vivek.iyer33@college.edu,CSE,QA,8.75,85,73,0,1,0,1,0,1,2,8,1,23,52,1,1
+STU0252,Srishti Desai,srishti.desai92@college.edu,CSE,Cloud/DevOps,8.04,61,61,0,0,0,1,1,0,1,4,0,0,75,1,0
+STU0253,Rahul Raj,rahul.raj58@college.edu,ISE,QA,8.09,76,73,1,0,0,0,0,0,2,4,0,1,85,0,0
+STU0254,Abhishek Dixit,abhishek.dixit45@college.edu,CSE,QA,5.42,94,75,0,0,1,0,1,0,2,3,0,39,65,3,0
+STU0255,Riya Hegde,riya.hegde31@college.edu,MECH,Full-Stack,6.65,72,73,0,0,1,0,0,1,0,8,0,0,59,1,0
+STU0256,Abhishek Patel,abhishek.patel41@college.edu,CSE,Cloud/DevOps,6.02,81,90,0,1,0,0,0,0,2,5,1,46,57,0,0
+STU0257,Karthik Singh,karthik.singh37@college.edu,MECH,Data Analyst,5.92,87,62,0,1,0,0,1,1,3,10,0,24,59,1,1
+STU0258,Yash Sharma,yash.sharma11@college.edu,CSE,Cloud/DevOps,6.06,88,85,2,1,0,0,0,0,2,6,0,37,73,1,0
+STU0259,Kavya Pandey,kavya.pandey15@college.edu,ECE,Data Analyst,7.72,84,77,1,1,0,1,0,1,4,7,0,28,59,1,1
+STU0260,Neha Gupta,neha.gupta31@college.edu,MECH,QA,8.58,84,89,0,1,1,0,0,0,1,4,1,29,54,1,0
+STU0261,Neha Sinha,neha.sinha77@college.edu,CSE,Data Analyst,9.14,86,78,0,1,0,1,0,0,4,5,0,8,69,0,1
+STU0262,Nikhil Pandey,nikhil.pandey1@college.edu,ECE,Data Analyst,6.21,99,59,0,0,1,1,0,1,2,9,1,0,70,0,1
+STU0263,Sneha Reddy,sneha.reddy68@college.edu,ECE,Full-Stack,5.5,90,72,1,0,1,0,0,1,4,3,1,38,87,4,1
+STU0264,Ishaan Bhattacharya,ishaan.bhattacharya6@college.edu,MECH,Cloud/DevOps,6.44,72,89,2,1,0,1,0,1,2,7,0,0,74,1,0
+STU0265,Aditi Gowda,aditi.gowda9@college.edu,ECE,Data Analyst,8.56,87,64,2,0,0,0,1,2,2,4,1,16,57,1,0
+STU0266,Rachna Bhat,rachna.bhat18@college.edu,CSE,Cloud/DevOps,5.63,95,71,0,0,0,0,1,0,2,8,2,3,85,1,1
+STU0267,Anushka Rao,anushka.rao88@college.edu,MECH,QA,9.51,70,61,1,0,1,0,0,1,3,5,1,14,86,3,1
+STU0268,Karthik Kumar,karthik.kumar92@college.edu,MECH,Full-Stack,6.08,84,100,0,1,0,0,1,0,2,7,1,0,71,0,0
+STU0269,Siddharth Singh,siddharth.singh26@college.edu,CSE,Cloud/DevOps,7.74,70,56,0,1,1,0,0,1,1,7,0,31,73,3,1
+STU0270,Dhruv Bansal,dhruv.bansal70@college.edu,MECH,Cloud/DevOps,9.41,85,91,0,1,0,1,0,0,4,3,0,7,67,3,1
+STU0271,Anushka Nair,anushka.nair37@college.edu,ECE,Full-Stack,6.27,92,63,2,1,0,0,1,0,1,8,1,13,75,0,0
+STU0272,Anjali Joshi,anjali.joshi48@college.edu,MECH,QA,7.59,58,80,0,1,0,0,0,0,3,10,0,46,53,1,1
+STU0273,Ishaan Bhat,ishaan.bhat24@college.edu,MECH,QA,6.87,81,79,0,0,0,0,0,0,1,8,0,0,64,3,0
+STU0274,Ishita Raj,ishita.raj11@college.edu,MECH,Full-Stack,10.0,91,77,1,0,1,0,0,0,4,9,0,0,63,0,1
+STU0275,Vivek Rao,vivek.rao70@college.edu,ECE,Cloud/DevOps,9.87,66,81,2,1,0,0,0,1,3,4,0,26,57,0,0
+STU0276,Priya Chauhan,priya.chauhan85@college.edu,ECE,Cloud/DevOps,8.02,54,83,0,1,0,1,1,0,4,10,0,3,82,0,1
+STU0277,Vivek Pandey,vivek.pandey22@college.edu,MECH,Cloud/DevOps,9.89,71,68,0,1,1,0,0,0,0,10,2,21,88,1,1
+STU0278,Arjun Gowda,arjun.gowda79@college.edu,MECH,Cloud/DevOps,7.8,93,80,1,1,1,0,1,0,2,3,0,37,99,0,1
+STU0279,Rohan Bansal,rohan.bansal47@college.edu,ISE,Full-Stack,7.67,73,76,2,0,1,0,0,0,1,5,0,4,67,1,0
+STU0280,Vivek Dixit,vivek.dixit5@college.edu,ISE,Full-Stack,4.0,100,88,0,0,1,0,0,0,2,6,2,25,71,0,1
+STU0281,Anushka Hegde,anushka.hegde47@college.edu,MECH,Full-Stack,7.71,66,70,0,1,1,0,0,0,1,5,0,0,71,1,0
+STU0282,Meera Dixit,meera.dixit48@college.edu,ECE,QA,8.67,58,88,2,1,0,0,0,0,1,4,0,17,77,3,0
+STU0283,Aman Iyer,aman.iyer68@college.edu,ECE,QA,6.39,64,71,0,0,1,0,0,0,4,8,0,0,50,3,1
+STU0284,Anushka Raj,anushka.raj32@college.edu,CSE,Full-Stack,7.55,80,68,0,1,1,0,0,0,3,5,0,39,74,3,1
+STU0285,Simran Shetty,simran.shetty72@college.edu,CSE,Cloud/DevOps,6.55,84,90,0,1,1,1,0,1,1,7,0,42,52,1,1
+STU0286,Asha Dixit,asha.dixit28@college.edu,ECE,QA,5.3,69,92,2,0,0,0,0,0,3,6,0,39,60,2,0
+STU0287,Neha Iyer,neha.iyer10@college.edu,MECH,Data Analyst,8.56,69,91,0,1,1,0,0,0,2,10,1,0,71,0,1
+STU0288,Priya Chauhan,priya.chauhan86@college.edu,ECE,Full-Stack,5.29,79,82,0,0,0,0,0,0,2,7,1,14,70,0,0
+STU0289,Megha Verma,megha.verma92@college.edu,ISE,Cloud/DevOps,7.77,90,77,1,1,0,1,1,0,1,6,0,2,58,1,0
+STU0290,Neha Nair,neha.nair18@college.edu,ISE,QA,10.0,93,98,0,0,0,0,0,0,1,3,0,41,87,3,0
+STU0291,Divya Hegde,divya.hegde60@college.edu,ISE,Full-Stack,10.0,65,90,1,1,1,1,0,1,0,4,0,9,76,1,0
+STU0292,Megha Bansal,megha.bansal92@college.edu,MECH,QA,9.96,80,84,0,1,0,0,0,2,2,9,2,35,59,3,1
+STU0293,Aman Kumar,aman.kumar17@college.edu,ECE,Full-Stack,6.32,77,89,1,1,0,0,0,0,2,10,1,4,48,1,0
+STU0294,Nandini Gowda,nandini.gowda17@college.edu,ISE,Data Analyst,8.22,73,72,1,1,1,1,0,2,1,9,0,14,59,0,1
+STU0295,Dhruv Gupta,dhruv.gupta16@college.edu,ISE,Cloud/DevOps,6.53,68,78,0,0,1,1,0,0,2,5,2,0,88,2,1
+STU0296,Rahul Chauhan,rahul.chauhan91@college.edu,ISE,Cloud/DevOps,7.69,100,70,0,1,1,0,1,0,2,7,1,31,63,0,1
+STU0297,Priya Mehta,priya.mehta26@college.edu,ECE,Data Analyst,8.74,88,61,1,1,0,0,0,0,3,7,0,21,64,2,0
+STU0298,Pallavi Reddy,pallavi.reddy65@college.edu,ISE,Data Analyst,8.22,71,100,0,1,1,1,0,0,3,5,1,0,91,4,1
+STU0299,Nitin Bhat,nitin.bhat73@college.edu,CSE,Full-Stack,6.81,83,86,0,0,1,0,0,0,1,4,2,34,59,1,0
+STU0300,Arjun Mehta,arjun.mehta84@college.edu,ISE,QA,8.01,80,57,0,0,1,0,1,0,2,3,0,19,61,2,0
+STU0301,Simran Kapoor,simran.kapoor83@college.edu,ECE,QA,5.53,62,67,0,1,1,0,0,0,3,6,1,32,44,5,1
+STU0302,Meera Bansal,meera.bansal39@college.edu,MECH,Full-Stack,8.45,78,69,0,0,0,0,0,2,3,3,1,17,65,4,1
+STU0303,Rahul Dixit,rahul.dixit54@college.edu,MECH,QA,6.31,78,48,0,0,1,1,0,0,4,6,0,12,63,3,1
+STU0304,Tanvi Menon,tanvi.menon41@college.edu,ECE,Cloud/DevOps,6.67,60,76,3,1,1,0,0,0,4,9,0,19,45,5,0
+STU0305,Karthik Hegde,karthik.hegde66@college.edu,CSE,Cloud/DevOps,6.33,93,82,0,0,1,0,0,0,1,6,0,19,50,1,0
+STU0306,Nandini Joshi,nandini.joshi35@college.edu,MECH,Data Analyst,5.3,67,50,0,0,1,0,0,0,1,5,0,7,74,2,0
+STU0307,Vikram Gupta,vikram.gupta38@college.edu,MECH,QA,7.72,93,82,0,0,1,0,0,1,4,6,2,2,56,1,1
+STU0308,Rahul Chauhan,rahul.chauhan74@college.edu,ECE,Data Analyst,5.83,63,60,0,1,0,0,0,1,3,5,1,18,52,0,1
+STU0309,Simran Agarwal,simran.agarwal64@college.edu,ECE,QA,5.98,62,70,0,0,0,1,0,1,1,3,3,41,61,1,1
+STU0310,Priya Bansal,priya.bansal65@college.edu,MECH,Data Analyst,6.09,84,89,0,0,0,0,0,0,1,6,1,6,87,0,0
+STU0311,Rachna Gowda,rachna.gowda7@college.edu,CSE,Cloud/DevOps,6.76,72,86,0,1,1,0,1,0,2,10,2,8,82,2,1
+STU0312,Vivek Bhattacharya,vivek.bhattacharya37@college.edu,CSE,Full-Stack,7.06,78,58,0,0,0,0,0,0,4,9,0,0,69,1,1
+STU0313,Karthik Mehta,karthik.mehta94@college.edu,ECE,QA,7.88,96,76,1,1,0,0,1,0,1,8,1,22,67,3,0
+STU0314,Arjun Bansal,arjun.bansal7@college.edu,ISE,Cloud/DevOps,8.64,82,56,0,1,1,0,0,2,2,7,0,28,66,2,1
+STU0315,Rohan Shetty,rohan.shetty65@college.edu,MECH,Cloud/DevOps,8.33,85,65,0,1,0,1,1,1,3,4,2,8,86,0,1
+STU0316,Karthik Desai,karthik.desai51@college.edu,ECE,Cloud/DevOps,9.5,70,94,0,0,1,0,0,0,1,8,0,12,94,1,1
+STU0317,Kavya Nair,kavya.nair78@college.edu,MECH,Full-Stack,7.4,85,86,0,1,1,0,0,0,1,3,0,30,52,3,0
+STU0318,Arjun Iyer,arjun.iyer92@college.edu,ECE,QA,6.08,81,83,2,1,1,1,0,0,2,10,0,35,61,2,0
+STU0319,Kavya Iyer,kavya.iyer42@college.edu,ECE,Data Analyst,6.78,56,70,1,1,0,1,1,0,2,9,0,21,97,2,1
+STU0320,Pallavi Chopra,pallavi.chopra76@college.edu,ECE,QA,6.8,73,73,0,1,1,0,0,2,3,7,2,0,72,0,1
+STU0321,Sameer Patel,sameer.patel48@college.edu,ECE,Full-Stack,6.77,83,78,0,1,1,0,0,1,4,9,1,16,71,2,1
+STU0322,Rachna Chopra,rachna.chopra93@college.edu,CSE,QA,8.18,69,91,2,1,1,0,0,0,3,7,0,12,57,2,0
+STU0323,Anushka Das,anushka.das93@college.edu,CSE,QA,5.47,75,51,1,1,1,0,0,1,0,5,0,26,66,0,0
+STU0324,Ishita Shetty,ishita.shetty19@college.edu,ISE,Full-Stack,9.47,83,64,0,1,1,0,0,0,2,4,0,0,60,2,0
+STU0325,Siddharth Patel,siddharth.patel57@college.edu,ECE,QA,6.32,81,74,0,1,0,0,0,0,2,5,1,0,53,0,0
+STU0326,Kunal Bose,kunal.bose53@college.edu,MECH,Full-Stack,6.56,77,94,1,0,1,0,0,1,1,5,0,32,69,2,0
+STU0327,Ishita Bose,ishita.bose72@college.edu,ECE,QA,5.56,82,86,0,1,1,0,0,2,1,9,1,19,61,4,1
+STU0328,Rishabh Rao,rishabh.rao59@college.edu,ECE,Cloud/DevOps,6.28,82,92,0,1,1,0,1,1,1,7,0,30,86,1,1
+STU0329,Pallavi Bhattacharya,pallavi.bhattacharya25@college.edu,ISE,Cloud/DevOps,8.19,72,56,0,1,0,0,0,0,4,7,0,9,64,3,1
+STU0330,Abhishek Chopra,abhishek.chopra99@college.edu,ECE,Data Analyst,9.51,60,90,0,1,0,0,1,0,3,10,0,18,76,1,1
+STU0331,Rishabh Bhattacharya,rishabh.bhattacharya45@college.edu,ECE,Cloud/DevOps,7.36,82,89,0,1,1,0,0,1,0,4,0,0,53,5,0
+STU0332,Aman Shetty,aman.shetty51@college.edu,ECE,Data Analyst,9.12,88,74,0,1,0,1,0,2,1,7,0,3,91,2,1
+STU0333,Arjun Kapoor,arjun.kapoor92@college.edu,CSE,Cloud/DevOps,9.46,76,72,0,0,0,0,0,0,3,10,0,48,85,1,1
+STU0334,Anushka Mehta,anushka.mehta96@college.edu,MECH,Data Analyst,6.62,96,72,0,1,1,0,0,2,2,6,1,20,77,2,1
+STU0335,Tushar Raj,tushar.raj72@college.edu,ECE,Data Analyst,7.96,83,56,0,0,1,0,0,1,2,4,0,0,89,4,1
+STU0336,Pallavi Thakur,pallavi.thakur32@college.edu,CSE,Data Analyst,8.13,75,67,0,1,1,0,0,1,1,6,0,7,59,3,0
+STU0337,Ananya Desai,ananya.desai53@college.edu,ECE,QA,5.65,78,69,0,1,0,1,0,0,3,4,0,0,84,0,0
+STU0338,Meera Iyer,meera.iyer1@college.edu,ISE,QA,6.93,83,100,0,1,0,1,0,1,3,10,0,0,100,1,1
+STU0339,Sameer Nair,sameer.nair97@college.edu,ECE,Cloud/DevOps,8.82,64,40,0,0,1,0,0,0,1,7,0,0,72,0,0
+STU0340,Anushka Gupta,anushka.gupta99@college.edu,CSE,Data Analyst,8.09,51,64,0,0,0,1,1,0,2,3,2,8,70,1,0
+STU0341,Sneha Mishra,sneha.mishra23@college.edu,CSE,QA,9.73,75,78,0,1,0,0,1,1,2,10,1,19,47,2,1
+STU0342,Sneha Kapoor,sneha.kapoor5@college.edu,CSE,Cloud/DevOps,7.83,80,56,2,1,0,0,0,0,3,4,0,22,90,1,0
+STU0343,Tanvi Kapoor,tanvi.kapoor59@college.edu,MECH,Data Analyst,6.79,86,75,0,0,0,0,0,0,4,10,1,36,72,2,1
+STU0344,Anjali Nair,anjali.nair15@college.edu,ECE,Data Analyst,6.5,94,73,0,0,1,0,1,2,1,10,0,0,61,2,1
+STU0345,Anushka Mehta,anushka.mehta92@college.edu,ISE,Full-Stack,6.15,89,73,0,0,0,0,0,0,1,8,3,0,38,2,0
+STU0346,Nikhil Nair,nikhil.nair23@college.edu,MECH,QA,8.89,89,65,0,1,0,0,0,0,3,8,0,12,88,1,1
+STU0347,Priya Bansal,priya.bansal86@college.edu,CSE,Data Analyst,8.95,64,62,0,0,0,0,0,1,1,5,0,20,68,5,0
+STU0348,Sameer Chauhan,sameer.chauhan32@college.edu,CSE,Cloud/DevOps,6.74,87,72,0,0,1,1,1,1,1,9,1,7,67,3,1
+STU0349,Shruti Dixit,shruti.dixit97@college.edu,ECE,Cloud/DevOps,7.48,78,89,0,1,0,1,0,0,3,7,1,36,94,4,1
+STU0350,Rachna Sharma,rachna.sharma34@college.edu,ECE,Data Analyst,8.07,73,55,0,1,0,0,1,0,2,3,1,0,68,0,0
+STU0351,Nitin Joshi,nitin.joshi60@college.edu,ECE,Data Analyst,5.06,80,72,0,0,1,1,0,0,3,9,2,6,74,2,1
+STU0352,Meera Chopra,meera.chopra89@college.edu,CSE,Cloud/DevOps,7.83,91,67,3,1,0,0,0,0,1,8,1,23,58,3,0
+STU0353,Pallavi Das,pallavi.das29@college.edu,ISE,QA,4.65,100,78,0,1,1,0,0,0,0,5,0,6,60,1,0
+STU0354,Nandini Hegde,nandini.hegde54@college.edu,MECH,Data Analyst,7.68,85,81,1,0,1,0,0,0,4,6,0,21,67,0,1
+STU0355,Meera Reddy,meera.reddy68@college.edu,MECH,Cloud/DevOps,8.8,89,80,1,1,0,0,1,2,2,4,0,36,63,3,1
+STU0356,Aman Joshi,aman.joshi8@college.edu,ISE,Data Analyst,6.7,79,62,0,1,1,0,0,0,4,5,0,0,64,2,1
+STU0357,Rishabh Dixit,rishabh.dixit15@college.edu,ISE,QA,9.01,89,64,0,0,1,0,0,1,3,4,0,0,68,2,1
+STU0358,Dhruv Dixit,dhruv.dixit8@college.edu,MECH,Data Analyst,6.84,86,89,0,1,0,0,0,0,4,9,2,10,87,1,1
+STU0359,Nandini Gupta,nandini.gupta72@college.edu,MECH,Cloud/DevOps,6.45,80,80,2,0,0,0,0,0,3,3,0,16,61,3,0
+STU0360,Riya Mehta,riya.mehta1@college.edu,ISE,Full-Stack,6.11,66,56,0,0,1,0,0,1,2,3,0,0,64,0,0
+STU0361,Swati Gowda,swati.gowda90@college.edu,CSE,Full-Stack,8.52,84,76,0,0,0,1,0,1,3,4,1,27,76,1,1
+STU0362,Sameer Singh,sameer.singh37@college.edu,MECH,Data Analyst,5.83,90,60,0,1,0,0,0,2,1,5,0,15,94,4,1
+STU0363,Anushka Mishra,anushka.mishra48@college.edu,MECH,QA,7.97,70,67,0,1,1,1,0,0,2,9,3,0,54,1,1
+STU0364,Ishaan Reddy,ishaan.reddy88@college.edu,ISE,Cloud/DevOps,5.6,84,72,0,1,0,0,1,0,4,4,0,18,75,1,1
+STU0365,Sneha Bansal,sneha.bansal68@college.edu,ISE,Data Analyst,6.79,70,72,0,1,0,0,0,0,0,3,0,41,51,2,0
+STU0366,Aditi Chopra,aditi.chopra60@college.edu,MECH,QA,8.92,91,58,1,0,0,1,0,1,4,6,0,36,87,5,1
+STU0367,Shruti Agarwal,shruti.agarwal45@college.edu,ISE,Cloud/DevOps,8.39,73,77,0,1,0,0,0,0,1,6,1,17,68,3,0
+STU0368,Neha Singh,neha.singh85@college.edu,MECH,Full-Stack,7.38,79,79,0,1,1,0,0,0,1,6,1,20,65,1,0
+STU0369,Pooja Kumar,pooja.kumar13@college.edu,CSE,QA,6.22,97,64,0,0,1,0,1,2,1,3,0,19,71,4,1
+STU0370,Shruti Singh,shruti.singh52@college.edu,MECH,Data Analyst,9.24,80,67,0,0,1,0,0,0,4,6,1,0,65,5,1
+STU0371,Ananya Iyer,ananya.iyer65@college.edu,ECE,Data Analyst,6.82,88,77,0,1,0,1,0,1,3,8,0,42,49,0,1
+STU0372,Aman Chauhan,aman.chauhan31@college.edu,ECE,Data Analyst,8.15,58,74,0,1,0,1,0,1,2,6,1,0,97,0,1
+STU0373,Kunal Chopra,kunal.chopra36@college.edu,CSE,Data Analyst,7.09,84,83,0,0,1,0,1,1,3,9,0,3,76,0,1
+STU0374,Srishti Sinha,srishti.sinha7@college.edu,ECE,QA,7.57,76,88,0,0,0,1,0,1,1,8,2,0,76,1,1
+STU0375,Ravi Mishra,ravi.mishra53@college.edu,ISE,Cloud/DevOps,8.82,84,56,0,1,1,0,0,0,2,9,0,14,72,1,1
+STU0376,Sneha Bhattacharya,sneha.bhattacharya31@college.edu,ISE,Cloud/DevOps,8.48,81,72,2,1,1,0,0,0,1,5,2,22,67,2,0
+STU0377,Nandini Gupta,nandini.gupta72@college.edu,MECH,QA,8.34,100,71,0,0,1,0,0,0,1,5,0,18,76,1,0
+STU0378,Ishaan Thakur,ishaan.thakur33@college.edu,ISE,Cloud/DevOps,6.47,80,82,0,0,1,0,0,0,3,4,1,35,93,4,1
+STU0379,Yash Hegde,yash.hegde12@college.edu,ISE,Full-Stack,7.22,74,92,0,1,0,0,0,0,1,7,0,0,51,0,0
+STU0380,Ishaan Singh,ishaan.singh10@college.edu,ISE,Data Analyst,8.64,85,72,0,1,1,0,0,0,1,10,1,7,88,4,1
+STU0381,Pooja Bhat,pooja.bhat39@college.edu,CSE,Data Analyst,9.19,75,86,0,1,0,1,1,1,1,6,2,5,81,5,1
+STU0382,Neha Bhattacharya,neha.bhattacharya32@college.edu,ISE,QA,10.0,91,83,0,1,1,0,0,0,2,6,0,15,99,3,1
+STU0383,Srishti Chauhan,srishti.chauhan37@college.edu,MECH,QA,6.07,79,62,0,1,1,0,1,0,0,8,1,30,60,3,0
+STU0384,Megha Mehta,megha.mehta47@college.edu,MECH,QA,7.5,84,94,0,0,1,0,0,0,3,4,2,26,64,0,1
+STU0385,Sameer Chauhan,sameer.chauhan27@college.edu,ECE,Cloud/DevOps,6.86,82,57,1,1,0,0,0,1,3,9,0,20,85,0,1
+STU0386,Arjun Das,arjun.das95@college.edu,ISE,Full-Stack,6.08,77,87,1,0,1,1,1,0,4,7,1,36,65,1,1
+STU0387,Srishti Mishra,srishti.mishra38@college.edu,ISE,Data Analyst,6.19,48,78,0,1,0,0,0,0,3,8,0,0,65,1,0
+STU0388,Abhishek Shetty,abhishek.shetty73@college.edu,ISE,QA,7.36,82,73,0,0,0,0,0,0,1,8,0,13,75,1,0
+STU0389,Varun Sinha,varun.sinha93@college.edu,MECH,QA,7.18,64,66,0,1,0,0,0,0,2,5,0,7,76,4,0
+STU0390,Pranav Verma,pranav.verma18@college.edu,MECH,Data Analyst,9.08,71,82,0,0,0,0,0,0,4,3,3,28,67,2,1
+STU0391,Ishita Singh,ishita.singh10@college.edu,CSE,Full-Stack,8.61,69,85,0,0,0,0,1,1,3,9,1,0,63,1,1
+STU0392,Karthik Das,karthik.das9@college.edu,ISE,Full-Stack,9.12,73,65,0,0,0,0,1,1,3,6,0,0,65,4,1
+STU0393,Dhruv Agarwal,dhruv.agarwal48@college.edu,CSE,QA,6.83,84,43,3,1,1,0,0,0,0,10,0,1,76,3,0
+STU0394,Aditi Sharma,aditi.sharma69@college.edu,MECH,Full-Stack,6.93,71,66,0,0,0,0,1,0,1,3,0,4,72,3,0
+STU0395,Ishita Raj,ishita.raj69@college.edu,ECE,Full-Stack,10.0,93,60,0,0,0,0,0,0,4,9,0,26,79,1,1
+STU0396,Sneha Desai,sneha.desai13@college.edu,ISE,Data Analyst,8.69,93,64,0,0,1,0,0,1,2,6,2,1,73,4,1
+STU0397,Pallavi Mehta,pallavi.mehta46@college.edu,ECE,QA,6.51,67,68,0,1,0,0,0,1,3,4,0,0,48,0,0
+STU0398,Divya Bansal,divya.bansal59@college.edu,ISE,Data Analyst,8.27,89,69,0,0,1,0,1,1,1,7,1,17,82,0,1
+STU0399,Meera Reddy,meera.reddy84@college.edu,CSE,Full-Stack,8.78,76,91,1,1,1,1,0,0,3,9,1,0,75,3,1
+STU0400,Ishaan Shetty,ishaan.shetty71@college.edu,MECH,Full-Stack,6.96,82,59,0,0,0,0,0,1,2,3,2,7,65,4,1
+STU0401,Ravi Verma,ravi.verma11@college.edu,MECH,QA,7.5,92,86,0,0,1,0,0,0,2,8,0,35,63,0,0
+STU0402,Aman Desai,aman.desai68@college.edu,CSE,Data Analyst,7.79,92,84,1,0,1,1,0,2,2,6,0,25,68,1,1
+STU0403,Ravi Bhattacharya,ravi.bhattacharya35@college.edu,CSE,Full-Stack,6.71,77,63,1,1,0,0,0,0,2,7,0,23,36,3,0
+STU0404,Tushar Singh,tushar.singh23@college.edu,ECE,Full-Stack,7.97,57,60,1,0,1,1,0,1,0,6,1,75,79,1,1
+STU0405,Rachna Menon,rachna.menon97@college.edu,MECH,Full-Stack,7.36,85,67,0,0,1,0,0,0,3,7,0,11,49,1,0
+STU0406,Rahul Thakur,rahul.thakur73@college.edu,MECH,Cloud/DevOps,8.38,67,87,0,1,0,0,1,0,3,9,0,3,70,2,1
+STU0407,Karthik Reddy,karthik.reddy65@college.edu,ECE,Full-Stack,4.97,100,76,0,0,0,0,0,0,2,4,0,15,51,3,0
+STU0408,Swati Das,swati.das10@college.edu,ECE,QA,6.02,92,83,0,1,1,0,0,0,1,8,0,33,100,3,1
+STU0409,Aditi Raj,aditi.raj58@college.edu,MECH,Data Analyst,8.1,63,72,0,1,1,1,0,0,1,8,0,23,82,4,1
+STU0410,Srishti Shetty,srishti.shetty56@college.edu,ISE,QA,7.91,77,60,0,1,1,0,0,1,1,4,0,0,51,4,0
+STU0411,Pallavi Kapoor,pallavi.kapoor32@college.edu,CSE,Full-Stack,7.54,96,74,0,0,0,0,0,2,3,7,0,46,79,4,1
+STU0412,Kavya Shetty,kavya.shetty92@college.edu,ISE,QA,7.55,90,79,2,1,0,0,0,0,0,8,1,16,63,2,0
+STU0413,Divya Desai,divya.desai12@college.edu,CSE,Cloud/DevOps,7.48,85,76,0,1,1,0,0,2,1,10,1,5,68,1,1
+STU0414,Divya Raj,divya.raj14@college.edu,ISE,Full-Stack,8.57,68,65,0,1,1,0,1,1,4,5,1,15,82,0,1
+STU0415,Swati Dixit,swati.dixit72@college.edu,MECH,Full-Stack,6.21,80,69,3,1,0,0,0,2,1,3,0,29,93,1,0
+STU0416,Priya Gowda,priya.gowda71@college.edu,CSE,Cloud/DevOps,5.84,75,71,0,0,1,0,0,0,0,9,0,26,80,4,0
+STU0417,Aarav Kapoor,aarav.kapoor53@college.edu,MECH,Full-Stack,8.02,88,79,0,1,0,1,0,2,1,6,0,27,60,0,1
+STU0418,Aman Verma,aman.verma88@college.edu,MECH,Data Analyst,8.74,75,85,0,1,0,0,0,1,3,5,0,0,76,3,1
+STU0419,Anjali Chopra,anjali.chopra35@college.edu,MECH,Data Analyst,6.46,79,76,4,0,0,0,0,0,0,4,1,0,91,0,0
+STU0420,Rahul Pandey,rahul.pandey36@college.edu,MECH,Cloud/DevOps,6.58,68,78,0,0,0,0,0,0,2,10,1,24,73,1,1
+STU0421,Rohan Hegde,rohan.hegde33@college.edu,ISE,QA,8.75,60,70,0,1,0,0,0,0,3,6,0,0,47,4,0
+STU0422,Nandini Desai,nandini.desai18@college.edu,ECE,Full-Stack,6.48,89,71,0,1,1,0,0,0,3,9,1,29,70,1,1
+STU0423,Tanvi Shetty,tanvi.shetty43@college.edu,MECH,Cloud/DevOps,7.93,85,78,0,0,0,0,0,0,2,9,0,41,72,0,1
+STU0424,Anushka Iyer,anushka.iyer39@college.edu,ECE,Data Analyst,8.22,89,96,0,1,0,0,0,1,1,10,2,0,72,1,1
+STU0425,Rishabh Rao,rishabh.rao51@college.edu,ECE,Cloud/DevOps,8.4,86,86,0,0,0,1,1,1,3,10,0,6,82,0,1
+STU0426,Aman Thakur,aman.thakur42@college.edu,MECH,Cloud/DevOps,6.94,65,65,0,0,0,0,0,0,3,9,2,0,87,3,1
+STU0427,Divya Joshi,divya.joshi73@college.edu,ISE,Data Analyst,8.81,74,58,1,1,1,0,0,1,1,3,1,27,38,0,0
+STU0428,Nandini Bose,nandini.bose57@college.edu,ECE,Full-Stack,6.73,86,87,0,1,1,0,0,1,1,9,1,1,90,1,1
+STU0429,Meera Sinha,meera.sinha18@college.edu,ECE,Data Analyst,9.09,78,75,1,1,1,0,0,1,3,7,2,0,67,1,1
+STU0430,Nitin Menon,nitin.menon92@college.edu,MECH,QA,6.59,70,71,1,1,0,0,0,2,3,4,0,0,63,2,1
+STU0431,Yash Bhattacharya,yash.bhattacharya75@college.edu,MECH,QA,8.8,82,77,0,1,0,1,0,0,2,3,0,39,67,2,0
+STU0432,Divya Reddy,divya.reddy14@college.edu,ISE,Cloud/DevOps,6.57,75,68,0,1,1,1,0,1,1,5,0,21,83,0,1
+STU0433,Anushka Singh,anushka.singh73@college.edu,MECH,Cloud/DevOps,5.46,74,71,2,1,0,0,0,0,1,9,1,23,75,2,0
+STU0434,Vikram Sharma,vikram.sharma13@college.edu,ECE,Data Analyst,6.85,88,55,0,1,0,1,0,0,2,6,0,10,65,1,0
+STU0435,Yash Hegde,yash.hegde51@college.edu,MECH,Data Analyst,9.14,76,69,2,0,0,1,0,0,3,8,0,7,62,4,0
+STU0436,Aditi Bhattacharya,aditi.bhattacharya14@college.edu,ECE,QA,8.02,87,100,0,1,1,0,1,0,1,4,1,28,67,0,0
+STU0437,Neha Menon,neha.menon45@college.edu,ECE,Cloud/DevOps,8.51,80,91,0,0,1,1,0,0,0,10,2,7,50,1,0
+STU0438,Pooja Bhattacharya,pooja.bhattacharya45@college.edu,MECH,Full-Stack,6.66,81,76,0,0,0,0,0,2,2,10,0,16,57,1,1
+STU0439,Ravi Dixit,ravi.dixit41@college.edu,CSE,Cloud/DevOps,6.07,76,81,0,1,0,0,0,1,2,3,0,26,59,1,0
+STU0440,Asha Joshi,asha.joshi3@college.edu,ECE,Full-Stack,6.65,86,70,0,1,1,0,0,0,2,5,0,11,33,4,0
+STU0441,Shruti Rao,shruti.rao71@college.edu,ISE,Cloud/DevOps,6.57,62,66,0,0,1,0,0,0,3,9,2,0,62,5,1
+STU0442,Nandini Das,nandini.das52@college.edu,ISE,Data Analyst,6.78,73,64,0,0,1,0,0,2,0,9,0,54,87,0,1
+STU0443,Riya Patel,riya.patel95@college.edu,ISE,QA,9.55,68,86,2,0,0,0,0,2,2,9,0,14,93,1,1
+STU0444,Ishaan Sharma,ishaan.sharma91@college.edu,ISE,Data Analyst,7.85,82,71,0,1,1,0,0,1,0,7,1,0,50,0,0
+STU0445,Asha Kumar,asha.kumar74@college.edu,CSE,Data Analyst,6.92,90,98,0,1,1,0,0,2,2,8,0,43,51,1,1
+STU0446,Rishabh Nair,rishabh.nair59@college.edu,CSE,Cloud/DevOps,8.02,67,73,0,1,0,1,1,1,0,10,0,29,70,3,1
+STU0447,Ishita Chauhan,ishita.chauhan77@college.edu,MECH,QA,6.92,88,62,0,0,0,1,0,0,0,4,2,50,82,4,0
+STU0448,Pranav Gowda,pranav.gowda59@college.edu,ISE,Cloud/DevOps,8.93,64,81,0,0,0,0,0,0,1,4,0,2,82,0,0
+STU0449,Meera Iyer,meera.iyer41@college.edu,CSE,Data Analyst,8.84,80,72,0,0,1,0,1,2,3,7,1,3,69,5,1
+STU0450,Neha Rao,neha.rao48@college.edu,ISE,QA,6.23,76,60,1,1,1,0,1,0,2,9,1,37,79,1,1
+STU0451,Vivek Iyer,vivek.iyer74@college.edu,MECH,QA,6.33,84,72,0,1,0,0,0,1,2,5,2,0,23,0,0
+STU0452,Simran Rao,simran.rao72@college.edu,ISE,QA,6.75,87,75,1,1,1,0,0,0,2,7,0,5,53,1,0
+STU0453,Karthik Rao,karthik.rao41@college.edu,MECH,Full-Stack,6.7,81,58,0,1,1,0,0,0,3,8,0,58,66,0,1
+STU0454,Aarav Sinha,aarav.sinha18@college.edu,ISE,QA,8.92,95,68,0,0,1,0,0,0,2,10,2,0,80,0,1
+STU0455,Kunal Sinha,kunal.sinha54@college.edu,MECH,QA,7.24,89,80,0,1,0,0,1,1,0,5,1,32,72,0,0
+STU0456,Priya Patel,priya.patel98@college.edu,ISE,Cloud/DevOps,8.75,80,68,0,0,0,0,1,0,2,3,1,13,51,3,0
+STU0457,Anjali Das,anjali.das69@college.edu,ECE,Data Analyst,7.89,89,65,0,1,0,1,0,2,3,10,1,9,48,2,1
+STU0458,Aman Sinha,aman.sinha71@college.edu,CSE,Full-Stack,7.09,82,84,0,1,0,0,0,1,2,7,1,36,85,0,1
+STU0459,Tushar Hegde,tushar.hegde70@college.edu,CSE,QA,7.34,91,64,0,1,1,0,0,0,2,6,3,0,79,2,1
+STU0460,Swati Desai,swati.desai95@college.edu,ISE,Cloud/DevOps,6.91,65,83,1,0,1,0,0,0,2,3,1,40,20,0,0
+STU0461,Yash Mehta,yash.mehta45@college.edu,CSE,QA,7.72,93,79,0,1,1,0,0,0,1,4,2,3,58,1,0
+STU0462,Shruti Bose,shruti.bose95@college.edu,ECE,QA,9.01,75,59,0,0,1,0,0,0,3,5,2,4,64,1,1
+STU0463,Pallavi Iyer,pallavi.iyer27@college.edu,ISE,Full-Stack,7.37,86,74,0,0,1,0,0,1,3,8,1,40,66,4,1
+STU0464,Tushar Raj,tushar.raj77@college.edu,ISE,Cloud/DevOps,7.6,69,85,0,0,1,1,1,0,4,7,0,2,71,0,1
+STU0465,Nikhil Raj,nikhil.raj66@college.edu,CSE,Data Analyst,6.98,97,65,0,1,0,1,0,0,1,9,0,0,53,5,0
+STU0466,Ananya Raj,ananya.raj84@college.edu,ISE,Data Analyst,7.33,80,87,0,0,0,1,0,0,0,6,0,0,77,2,0
+STU0467,Kavya Chauhan,kavya.chauhan32@college.edu,MECH,QA,5.38,83,70,0,0,0,0,1,0,2,5,0,0,75,1,0
+STU0468,Aman Raj,aman.raj81@college.edu,MECH,QA,8.18,76,68,1,1,0,1,0,0,1,10,0,0,99,4,1
+STU0469,Rohan Reddy,rohan.reddy52@college.edu,ECE,Cloud/DevOps,7.75,63,97,0,0,0,0,0,0,2,10,0,0,74,1,0
+STU0470,Simran Chauhan,simran.chauhan75@college.edu,CSE,Full-Stack,8.05,100,73,0,1,0,0,0,0,2,10,1,11,76,0,1
+STU0471,Mohit Gowda,mohit.gowda9@college.edu,MECH,Data Analyst,10.0,77,81,0,1,1,0,1,1,2,9,1,13,87,1,1
+STU0472,Pooja Sinha,pooja.sinha35@college.edu,ECE,Cloud/DevOps,10.0,77,88,2,0,1,0,0,0,2,8,1,12,57,0,0
+STU0473,Srishti Iyer,srishti.iyer73@college.edu,MECH,Cloud/DevOps,7.54,82,61,1,0,1,0,0,1,0,3,2,0,74,0,0
+STU0474,Arjun Desai,arjun.desai81@college.edu,MECH,Full-Stack,6.18,88,77,0,1,0,0,0,1,4,4,0,0,97,1,1
+STU0475,Rahul Dixit,rahul.dixit59@college.edu,CSE,QA,8.37,74,100,0,0,0,0,0,0,2,6,0,0,33,1,0
+STU0476,Ravi Iyer,ravi.iyer84@college.edu,ECE,Data Analyst,7.14,73,89,1,0,0,0,0,0,3,7,0,0,56,0,0
+STU0477,Priya Hegde,priya.hegde33@college.edu,CSE,Cloud/DevOps,6.74,82,79,0,0,1,0,0,1,1,5,1,0,63,2,0
+STU0478,Ananya Bansal,ananya.bansal81@college.edu,ECE,Data Analyst,5.73,96,66,0,1,0,1,0,0,1,9,2,38,93,1,1
+STU0479,Anushka Reddy,anushka.reddy91@college.edu,CSE,Full-Stack,7.55,90,74,0,1,0,1,0,0,1,6,0,0,68,2,0
+STU0480,Sameer Kumar,sameer.kumar17@college.edu,ISE,QA,8.11,79,90,0,0,0,0,0,1,0,3,0,7,77,2,0
+STU0481,Aarav Bhat,aarav.bhat16@college.edu,MECH,Data Analyst,9.0,81,82,0,1,0,0,1,1,4,10,0,20,56,3,1
+STU0482,Rohan Das,rohan.das50@college.edu,CSE,Full-Stack,6.34,72,76,0,1,1,0,0,0,2,4,1,8,66,0,0
+STU0483,Rishabh Hegde,rishabh.hegde39@college.edu,ISE,QA,7.5,64,80,1,1,0,0,0,0,0,5,1,29,62,3,0
+STU0484,Anushka Menon,anushka.menon9@college.edu,CSE,Data Analyst,7.35,86,69,3,1,0,0,0,0,3,10,1,0,74,3,0
+STU0485,Pranav Bose,pranav.bose81@college.edu,ISE,QA,8.67,80,83,0,0,1,0,0,0,3,10,2,35,88,1,1
+STU0486,Pooja Reddy,pooja.reddy13@college.edu,ISE,Full-Stack,9.89,83,94,0,1,0,0,1,1,3,9,0,33,51,0,1
+STU0487,Pranav Pandey,pranav.pandey41@college.edu,ISE,Data Analyst,8.54,81,88,0,0,1,0,0,0,1,7,2,0,61,1,0
+STU0488,Anushka Reddy,anushka.reddy32@college.edu,ECE,Full-Stack,8.87,71,74,0,1,1,0,0,0,2,7,2,33,67,3,1
+STU0489,Pooja Nair,pooja.nair96@college.edu,MECH,Cloud/DevOps,10.0,77,71,0,0,1,0,0,0,1,3,0,0,62,2,0
+STU0490,Shruti Sinha,shruti.sinha50@college.edu,CSE,Data Analyst,5.79,80,85,0,0,0,0,1,1,3,10,1,9,100,2,1
+STU0491,Mohit Kumar,mohit.kumar68@college.edu,CSE,Cloud/DevOps,7.63,75,75,2,0,0,0,0,1,1,8,1,34,72,2,0
+STU0492,Karthik Shetty,karthik.shetty73@college.edu,MECH,Cloud/DevOps,10.0,85,75,1,1,0,0,0,1,1,5,0,8,78,2,0
+STU0493,Sameer Kumar,sameer.kumar3@college.edu,CSE,Full-Stack,7.72,84,95,0,0,0,1,0,1,1,7,0,16,62,3,1
+STU0494,Pooja Singh,pooja.singh8@college.edu,MECH,Cloud/DevOps,8.97,81,73,0,0,0,0,1,0,4,9,0,15,74,4,1
+STU0495,Swati Bansal,swati.bansal11@college.edu,ISE,Cloud/DevOps,7.3,71,75,1,1,0,0,1,0,2,4,2,27,53,0,0
+STU0496,Megha Reddy,megha.reddy66@college.edu,ISE,Data Analyst,6.14,83,64,1,1,1,0,0,0,2,8,0,0,75,1,0
+STU0497,Riya Kumar,riya.kumar40@college.edu,MECH,Data Analyst,8.49,71,81,0,1,0,0,0,0,3,3,1,0,82,1,1
+STU0498,Shruti Reddy,shruti.reddy56@college.edu,CSE,QA,7.86,74,97,0,0,0,0,0,0,3,3,2,0,87,0,1
+STU0499,Megha Rao,megha.rao16@college.edu,CSE,Data Analyst,7.48,86,82,0,0,1,0,0,0,2,3,1,5,60,1,0
+STU0500,Rahul Sinha,rahul.sinha45@college.edu,ECE,Data Analyst,8.37,84,73,0,0,1,0,1,2,2,8,0,0,43,3,1
+STU0501,Karthik Raj,karthik.raj94@college.edu,CSE,Full-Stack,8.86,78,73,0,1,0,0,0,0,3,8,0,59,55,2,1
+STU0502,Swati Raj,swati.raj68@college.edu,CSE,Cloud/DevOps,8.66,76,54,2,0,0,1,0,1,2,4,0,34,80,1,0
+STU0503,Simran Agarwal,simran.agarwal66@college.edu,ECE,Full-Stack,4.24,78,57,0,0,0,0,0,0,2,10,0,0,49,0,0
+STU0504,Aman Verma,aman.verma48@college.edu,ISE,Cloud/DevOps,10.0,98,61,2,1,0,0,0,0,3,4,0,4,78,1,0
+STU0505,Aman Joshi,aman.joshi30@college.edu,CSE,Full-Stack,6.43,63,75,0,1,0,0,1,1,2,3,0,18,84,1,1
+STU0506,Shruti Singh,shruti.singh61@college.edu,ECE,QA,8.5,73,78,0,0,0,1,0,0,0,5,0,30,53,0,0
+STU0507,Sneha Singh,sneha.singh71@college.edu,MECH,Data Analyst,7.24,70,90,1,0,0,1,0,1,3,8,1,22,63,3,1
+STU0508,Shruti Mishra,shruti.mishra93@college.edu,ECE,Cloud/DevOps,5.47,90,68,0,1,1,0,0,0,2,4,2,7,53,0,0
+STU0509,Aman Hegde,aman.hegde16@college.edu,CSE,Data Analyst,9.2,87,73,0,1,0,0,0,1,2,6,1,9,73,0,1
+STU0510,Ishita Singh,ishita.singh52@college.edu,CSE,QA,7.07,87,73,0,1,0,0,0,0,3,7,3,0,76,4,1
+STU0511,Megha Chauhan,megha.chauhan12@college.edu,MECH,Full-Stack,6.05,80,76,0,1,1,0,0,1,1,8,0,28,79,1,1
+STU0512,Siddharth Kapoor,siddharth.kapoor73@college.edu,ECE,Data Analyst,8.11,84,60,1,0,0,0,0,0,2,10,2,21,61,2,1
+STU0513,Divya Sinha,divya.sinha99@college.edu,ISE,Data Analyst,5.16,89,65,1,1,0,1,0,1,1,5,1,11,93,2,0
+STU0514,Aarav Mishra,aarav.mishra4@college.edu,ISE,Cloud/DevOps,8.65,78,89,0,1,0,0,0,1,1,3,1,4,86,2,1
+STU0515,Tanvi Sharma,tanvi.sharma98@college.edu,MECH,Cloud/DevOps,6.97,77,73,0,0,1,0,1,2,1,4,0,6,97,0,1
+STU0516,Pooja Thakur,pooja.thakur54@college.edu,MECH,Full-Stack,7.33,78,75,0,1,0,0,0,0,2,5,1,14,64,1,0
+STU0517,Asha Raj,asha.raj12@college.edu,CSE,Data Analyst,10.0,64,51,0,1,1,1,0,1,2,9,0,0,67,0,1
+STU0518,Ravi Hegde,ravi.hegde59@college.edu,CSE,Full-Stack,7.19,78,88,1,1,1,0,1,1,2,5,1,15,76,4,1
+STU0519,Mohit Bansal,mohit.bansal10@college.edu,CSE,QA,9.97,65,68,0,1,1,0,0,1,3,5,0,0,95,1,1
+STU0520,Shruti Kapoor,shruti.kapoor34@college.edu,ECE,QA,6.42,88,76,0,0,1,0,0,0,0,8,0,29,59,2,0
+STU0521,Rishabh Dixit,rishabh.dixit35@college.edu,ISE,Full-Stack,7.4,83,69,0,0,1,0,0,0,3,6,1,24,67,0,1
+STU0522,Karthik Desai,karthik.desai20@college.edu,CSE,Data Analyst,8.09,77,61,0,1,1,0,1,1,1,10,1,0,44,3,1
+STU0523,Nandini Chauhan,nandini.chauhan53@college.edu,CSE,Cloud/DevOps,6.75,53,57,0,0,1,0,0,1,3,6,0,34,49,1,1
+STU0524,Yash Chopra,yash.chopra60@college.edu,ECE,Full-Stack,8.44,71,65,0,0,1,0,0,1,1,4,0,4,51,1,0
+STU0525,Rahul Chopra,rahul.chopra91@college.edu,CSE,Data Analyst,6.08,89,66,0,0,0,1,0,1,1,8,0,11,64,0,0
+STU0526,Kavya Reddy,kavya.reddy92@college.edu,ISE,Cloud/DevOps,8.14,73,75,0,0,1,0,0,0,3,9,2,9,81,2,1
+STU0527,Dhruv Gupta,dhruv.gupta87@college.edu,ECE,Cloud/DevOps,6.44,76,83,3,0,0,1,0,0,2,5,1,25,88,0,0
+STU0528,Aditi Bansal,aditi.bansal58@college.edu,ISE,Full-Stack,8.7,91,74,0,0,1,0,0,2,3,10,2,0,96,4,1
+STU0529,Vikram Iyer,vikram.iyer16@college.edu,CSE,Full-Stack,9.02,84,60,2,1,1,0,0,0,2,6,1,16,95,1,0
+STU0530,Karthik Nair,karthik.nair52@college.edu,ECE,Full-Stack,7.08,79,70,1,1,1,0,0,0,2,7,3,6,73,0,1
+STU0531,Rohan Patel,rohan.patel9@college.edu,ISE,QA,8.19,84,93,1,0,1,1,0,1,1,5,0,4,62,1,0
+STU0532,Priya Bhat,priya.bhat16@college.edu,CSE,QA,7.84,53,53,0,0,1,0,0,1,3,3,2,0,69,2,1
+STU0533,Rahul Pandey,rahul.pandey93@college.edu,MECH,QA,7.16,65,73,1,1,1,1,0,1,2,3,2,0,53,3,0
+STU0534,Ishaan Pandey,ishaan.pandey23@college.edu,ECE,Data Analyst,7.76,92,73,0,1,1,1,0,0,2,5,2,0,73,1,1
+STU0535,Anjali Raj,anjali.raj58@college.edu,ISE,Full-Stack,7.8,62,71,0,0,0,0,0,0,3,6,1,0,51,3,0
+STU0536,Anushka Kapoor,anushka.kapoor64@college.edu,MECH,QA,5.29,93,68,0,1,0,0,0,1,3,3,0,23,69,1,1
+STU0537,Priya Raj,priya.raj50@college.edu,ISE,QA,6.53,81,65,0,1,1,1,0,0,2,6,2,14,79,4,1
+STU0538,Anushka Thakur,anushka.thakur81@college.edu,CSE,QA,8.81,100,57,0,0,0,0,0,0,4,8,0,0,67,0,1
+STU0539,Sameer Sinha,sameer.sinha45@college.edu,ECE,QA,7.95,94,67,0,1,0,0,0,0,1,7,0,9,64,2,0
+STU0540,Sneha Patel,sneha.patel41@college.edu,ISE,Full-Stack,7.02,79,61,2,0,0,0,0,0,2,7,1,28,86,0,0
+STU0541,Ananya Bhattacharya,ananya.bhattacharya68@college.edu,ECE,Data Analyst,6.85,98,59,2,1,0,1,1,0,3,5,3,6,46,2,0
+STU0542,Vikram Thakur,vikram.thakur85@college.edu,ISE,Cloud/DevOps,6.64,70,59,0,1,1,0,0,1,4,3,0,17,68,4,1
+STU0543,Abhishek Shetty,abhishek.shetty46@college.edu,ISE,Data Analyst,8.62,87,75,0,0,0,1,0,0,4,6,0,0,73,1,1
+STU0544,Rachna Chauhan,rachna.chauhan95@college.edu,ECE,Full-Stack,5.39,73,80,0,0,1,1,0,0,2,8,1,0,87,1,1
+STU0545,Aman Menon,aman.menon73@college.edu,ISE,QA,8.93,78,48,0,0,0,0,0,0,3,7,1,29,73,0,1
+STU0546,Sneha Sinha,sneha.sinha5@college.edu,CSE,Full-Stack,9.22,82,51,0,0,1,0,1,0,2,6,2,0,94,2,1
+STU0547,Vivek Das,vivek.das3@college.edu,MECH,Full-Stack,6.9,91,65,0,1,0,0,0,0,2,8,0,43,77,3,1
+STU0548,Pallavi Nair,pallavi.nair17@college.edu,ECE,Data Analyst,8.47,83,100,0,1,1,0,0,0,1,8,0,28,63,0,0
+STU0549,Ananya Patel,ananya.patel19@college.edu,ISE,Full-Stack,6.35,85,68,0,0,1,1,0,0,2,8,2,16,94,2,1
+STU0550,Rohan Hegde,rohan.hegde91@college.edu,MECH,Full-Stack,8.48,78,78,2,1,0,0,0,0,3,8,2,11,52,1,0
+STU0551,Megha Chauhan,megha.chauhan18@college.edu,ISE,QA,6.18,88,85,0,1,1,1,0,0,4,10,3,15,49,3,1
+STU0552,Anushka Chauhan,anushka.chauhan23@college.edu,ECE,Data Analyst,7.57,77,83,0,0,1,0,0,0,2,5,0,25,78,1,0
+STU0553,Ishaan Chopra,ishaan.chopra94@college.edu,ECE,Data Analyst,9.35,95,71,1,0,0,0,0,0,0,5,1,2,61,1,0
+STU0554,Aarav Bansal,aarav.bansal99@college.edu,CSE,Data Analyst,8.03,65,64,0,1,0,0,1,0,2,8,0,74,68,2,1
+STU0555,Pallavi Das,pallavi.das82@college.edu,CSE,QA,6.46,85,83,0,1,0,0,0,0,1,5,0,20,97,0,0
+STU0556,Tanvi Kumar,tanvi.kumar31@college.edu,ECE,Cloud/DevOps,7.96,68,86,0,0,0,0,0,0,2,5,0,15,65,2,0
+STU0557,Mohit Reddy,mohit.reddy91@college.edu,ECE,QA,7.61,84,100,0,1,1,0,0,0,2,3,1,0,70,3,1
+STU0558,Varun Bose,varun.bose32@college.edu,CSE,Cloud/DevOps,6.76,88,65,2,1,1,0,0,1,2,7,0,0,80,1,0
+STU0559,Vikram Sharma,vikram.sharma7@college.edu,MECH,QA,7.99,86,58,0,0,0,0,0,0,2,9,0,14,73,0,0
+STU0560,Rahul Mishra,rahul.mishra64@college.edu,MECH,Cloud/DevOps,7.72,71,57,2,1,0,0,0,0,1,9,0,19,57,0,0
+STU0561,Vikram Bhattacharya,vikram.bhattacharya74@college.edu,ISE,Data Analyst,6.65,74,66,0,0,0,0,0,0,3,10,0,26,78,0,1
+STU0562,Rohan Singh,rohan.singh38@college.edu,CSE,Cloud/DevOps,6.1,76,64,0,1,0,1,0,2,1,7,1,0,63,4,1
+STU0563,Vikram Kumar,vikram.kumar44@college.edu,ISE,QA,8.78,67,61,3,1,1,0,0,1,0,5,0,5,95,1,0
+STU0564,Rohan Reddy,rohan.reddy44@college.edu,MECH,Full-Stack,7.53,68,74,0,1,0,0,1,1,3,9,0,9,65,1,1
+STU0565,Anushka Verma,anushka.verma78@college.edu,MECH,Data Analyst,6.99,89,90,1,1,0,0,0,0,4,3,0,35,50,1,0
+STU0566,Vikram Bhat,vikram.bhat27@college.edu,ISE,QA,5.74,73,63,0,1,1,1,0,0,2,7,2,16,61,4,1
+STU0567,Nitin Kapoor,nitin.kapoor39@college.edu,ISE,Full-Stack,8.1,76,77,0,1,0,1,0,0,2,3,0,9,64,0,0
+STU0568,Riya Sinha,riya.sinha20@college.edu,CSE,Cloud/DevOps,9.79,91,91,0,1,1,0,0,0,2,3,1,28,66,0,1
+STU0569,Swati Reddy,swati.reddy38@college.edu,MECH,Data Analyst,7.17,73,59,0,1,0,0,0,1,2,4,1,0,86,0,1
+STU0570,Aditi Bose,aditi.bose22@college.edu,ECE,Full-Stack,8.42,74,74,0,0,0,0,0,0,4,10,0,16,71,3,1
+STU0571,Neha Chopra,neha.chopra51@college.edu,MECH,QA,9.43,93,91,2,1,1,1,0,1,1,7,0,59,29,3,0
+STU0572,Priya Shetty,priya.shetty24@college.edu,ECE,QA,9.96,63,68,0,1,1,0,0,0,1,8,0,13,73,1,0
+STU0573,Sneha Dixit,sneha.dixit6@college.edu,ECE,QA,8.1,70,94,1,0,1,0,0,0,1,10,2,11,76,4,1
+STU0574,Varun Das,varun.das35@college.edu,CSE,Data Analyst,8.05,64,84,0,0,1,0,0,1,3,4,1,6,80,2,1
+STU0575,Priya Gowda,priya.gowda70@college.edu,MECH,Data Analyst,7.18,79,98,1,1,1,0,0,0,2,3,0,12,58,2,0
+STU0576,Ishaan Mishra,ishaan.mishra69@college.edu,MECH,Data Analyst,8.95,70,58,1,1,1,0,0,0,2,10,0,0,78,1,0
+STU0577,Megha Reddy,megha.reddy51@college.edu,CSE,Data Analyst,7.13,58,76,0,0,1,0,1,2,2,4,1,54,55,1,1
+STU0578,Yash Rao,yash.rao22@college.edu,ISE,Data Analyst,8.31,62,100,0,0,0,0,0,0,0,5,0,0,83,4,0
+STU0579,Arjun Pandey,arjun.pandey11@college.edu,MECH,Data Analyst,5.18,78,46,0,1,0,1,0,0,3,5,0,11,88,3,1
+STU0580,Vivek Mehta,vivek.mehta41@college.edu,CSE,Full-Stack,6.49,86,69,0,1,0,0,0,0,2,9,3,41,71,2,1
+STU0581,Srishti Bansal,srishti.bansal71@college.edu,ECE,Cloud/DevOps,7.41,78,82,0,1,0,0,0,2,3,10,1,17,32,1,1
+STU0582,Aarav Mishra,aarav.mishra15@college.edu,MECH,Data Analyst,7.54,63,78,0,1,1,0,0,1,3,5,1,2,53,1,1
+STU0583,Aman Desai,aman.desai14@college.edu,CSE,Cloud/DevOps,8.9,72,64,0,0,1,0,0,0,0,8,0,17,98,4,0
+STU0584,Kunal Mehta,kunal.mehta50@college.edu,MECH,QA,6.92,77,72,0,1,1,0,0,0,1,3,0,3,79,3,0
+STU0585,Sneha Raj,sneha.raj52@college.edu,ISE,QA,7.55,86,50,3,0,0,0,1,2,3,3,2,56,63,4,1
+STU0586,Riya Bhat,riya.bhat89@college.edu,ISE,Full-Stack,8.04,78,96,0,1,1,0,0,0,1,10,1,54,79,1,1
+STU0587,Anjali Hegde,anjali.hegde3@college.edu,ECE,Cloud/DevOps,10.0,76,59,0,1,1,1,0,0,2,7,0,55,100,1,1
+STU0588,Anjali Sinha,anjali.sinha90@college.edu,CSE,Data Analyst,7.49,68,74,0,1,1,0,0,2,2,5,1,23,68,3,1
+STU0589,Megha Dixit,megha.dixit42@college.edu,ECE,QA,7.19,82,63,0,0,1,0,0,0,1,4,0,20,90,0,0
+STU0590,Siddharth Dixit,siddharth.dixit28@college.edu,MECH,QA,5.2,65,79,0,1,1,1,0,2,3,8,2,23,76,0,1
+STU0591,Ananya Verma,ananya.verma9@college.edu,ECE,QA,8.36,98,74,0,1,0,1,0,0,2,5,1,31,72,4,1
+STU0592,Ishita Patel,ishita.patel23@college.edu,ISE,Data Analyst,7.32,73,85,0,1,0,0,0,0,1,3,2,11,80,4,1
+STU0593,Shruti Singh,shruti.singh59@college.edu,CSE,Cloud/DevOps,9.22,72,62,0,1,0,1,0,0,1,6,0,0,88,2,0
+STU0594,Anjali Hegde,anjali.hegde60@college.edu,MECH,Full-Stack,8.79,90,85,0,1,0,0,0,0,2,3,0,35,58,1,0
+STU0595,Shruti Hegde,shruti.hegde63@college.edu,MECH,Data Analyst,6.71,74,69,0,1,1,0,0,1,0,10,0,0,63,1,0
+STU0596,Rachna Gowda,rachna.gowda45@college.edu,ISE,Cloud/DevOps,7.77,60,61,2,1,0,0,0,0,0,4,0,16,72,0,0
+STU0597,Nikhil Patel,nikhil.patel50@college.edu,CSE,Data Analyst,8.07,87,89,0,1,0,0,0,0,2,6,2,9,63,1,1
+STU0598,Abhishek Das,abhishek.das87@college.edu,ISE,Cloud/DevOps,7.52,92,67,0,0,1,0,0,0,1,9,1,32,39,0,0
+STU0599,Dhruv Patel,dhruv.patel99@college.edu,CSE,QA,6.9,91,90,1,0,1,0,0,0,4,5,1,2,53,3,1
+STU0600,Anushka Rao,anushka.rao77@college.edu,CSE,Data Analyst,8.75,87,95,0,0,0,0,1,0,2,7,1,39,72,3,1
+STU0601,Vivek Chopra,vivek.chopra92@college.edu,ECE,QA,8.19,83,86,0,0,0,1,0,0,3,9,2,19,66,2,1
+STU0602,Pranav Agarwal,pranav.agarwal33@college.edu,ISE,QA,9.04,80,59,0,0,1,0,1,1,2,7,1,31,54,1,1
+STU0603,Meera Bansal,meera.bansal75@college.edu,CSE,Full-Stack,7.05,86,52,1,1,1,1,0,0,2,8,2,0,91,0,1
+STU0604,Srishti Kapoor,srishti.kapoor39@college.edu,CSE,QA,7.48,77,69,0,1,0,0,0,0,2,4,0,0,72,2,0
+STU0605,Tanvi Raj,tanvi.raj82@college.edu,ECE,Cloud/DevOps,8.05,70,69,0,1,0,0,0,0,2,7,2,59,89,1,1
+STU0606,Anushka Chopra,anushka.chopra25@college.edu,ISE,Data Analyst,8.43,75,89,0,1,0,1,0,0,1,3,1,0,78,0,0
+STU0607,Vivek Bansal,vivek.bansal85@college.edu,ECE,Data Analyst,6.76,66,67,0,1,1,0,0,0,2,3,0,21,65,1,0
+STU0608,Anushka Sinha,anushka.sinha38@college.edu,ECE,QA,8.64,76,60,1,1,0,1,0,1,4,9,2,15,83,1,1
+STU0609,Ishaan Singh,ishaan.singh75@college.edu,ISE,Cloud/DevOps,9.8,76,72,0,1,1,1,1,0,1,6,0,31,47,3,0
+STU0610,Meera Bhattacharya,meera.bhattacharya86@college.edu,ECE,Cloud/DevOps,7.8,88,71,0,1,0,0,0,1,2,5,0,26,68,1,1
+STU0611,Nitin Rao,nitin.rao38@college.edu,CSE,QA,9.57,81,84,0,0,0,0,0,0,1,5,1,0,70,2,0
+STU0612,Varun Rao,varun.rao88@college.edu,ECE,Full-Stack,6.09,84,96,0,1,0,0,0,2,2,6,0,34,68,0,1
+STU0613,Pranav Das,pranav.das96@college.edu,ECE,QA,8.72,75,57,0,1,1,0,0,0,1,8,0,0,64,0,0
+STU0614,Divya Mehta,divya.mehta75@college.edu,ECE,QA,8.23,79,84,2,1,1,0,0,1,2,4,2,19,62,2,1
+STU0615,Sameer Gupta,sameer.gupta82@college.edu,CSE,QA,5.67,68,85,0,1,1,0,0,0,0,6,0,40,55,3,0
+STU0616,Dhruv Joshi,dhruv.joshi88@college.edu,MECH,Cloud/DevOps,7.94,62,70,0,0,1,0,0,1,1,9,0,14,34,1,0
+STU0617,Ananya Menon,ananya.menon18@college.edu,ISE,Cloud/DevOps,6.83,65,89,1,1,0,0,0,1,1,9,2,23,82,4,1
+STU0618,Aman Agarwal,aman.agarwal19@college.edu,ECE,Data Analyst,6.48,86,65,0,0,1,0,0,0,3,4,0,0,64,2,0
+STU0619,Simran Bhat,simran.bhat81@college.edu,ISE,Cloud/DevOps,7.87,72,64,0,1,0,0,0,0,2,3,0,8,55,2,0
+STU0620,Aarav Dixit,aarav.dixit36@college.edu,ISE,Data Analyst,7.7,94,59,0,0,0,0,0,0,2,5,2,25,52,3,0
+STU0621,Simran Reddy,simran.reddy17@college.edu,MECH,QA,5.57,83,87,0,0,0,1,0,0,2,9,0,8,53,2,0
+STU0622,Swati Bhattacharya,swati.bhattacharya50@college.edu,CSE,Full-Stack,5.02,80,69,0,0,1,0,0,0,1,6,0,0,52,3,0
+STU0623,Divya Sharma,divya.sharma42@college.edu,ISE,Full-Stack,9.32,58,84,0,1,1,1,0,1,3,3,0,0,59,2,1
+STU0624,Mohit Thakur,mohit.thakur29@college.edu,ECE,Cloud/DevOps,7.9,77,64,0,1,0,0,0,0,3,5,1,50,65,3,1
+STU0625,Vikram Shetty,vikram.shetty65@college.edu,ECE,Data Analyst,6.9,85,72,0,0,1,0,0,1,2,4,1,0,83,2,1
+STU0626,Arjun Chopra,arjun.chopra38@college.edu,MECH,Cloud/DevOps,6.71,89,65,0,1,1,0,0,0,4,9,0,30,72,0,1
+STU0627,Meera Iyer,meera.iyer44@college.edu,MECH,Cloud/DevOps,7.2,83,90,1,1,0,1,0,0,2,6,1,59,39,5,0
+STU0628,Rahul Bansal,rahul.bansal3@college.edu,ISE,Data Analyst,9.46,65,59,0,1,1,0,0,0,1,5,1,8,70,1,0
+STU0629,Pooja Patel,pooja.patel76@college.edu,ISE,Full-Stack,10.0,85,77,0,1,1,1,0,0,2,8,1,28,82,2,1
+STU0630,Asha Singh,asha.singh49@college.edu,ECE,Full-Stack,7.53,83,84,0,1,1,0,0,0,1,3,1,31,87,0,0
+STU0631,Nitin Desai,nitin.desai84@college.edu,CSE,Full-Stack,9.26,79,100,0,1,1,0,1,0,4,4,0,31,56,3,1
+STU0632,Kunal Dixit,kunal.dixit49@college.edu,CSE,Cloud/DevOps,8.75,69,72,0,1,0,0,0,1,4,10,0,36,73,1,1
+STU0633,Ravi Menon,ravi.menon27@college.edu,CSE,Cloud/DevOps,7.64,72,63,0,1,1,1,1,1,0,9,0,4,57,2,1
+STU0634,Nitin Desai,nitin.desai85@college.edu,ECE,Data Analyst,6.5,73,65,0,0,0,1,0,0,2,9,0,29,74,3,1
+STU0635,Vikram Joshi,vikram.joshi37@college.edu,CSE,Full-Stack,6.81,71,69,0,1,1,1,0,1,2,10,2,0,64,2,1
+STU0636,Siddharth Nair,siddharth.nair34@college.edu,ISE,Cloud/DevOps,7.27,87,82,0,0,1,0,1,0,1,9,0,0,62,4,0
+STU0637,Nikhil Verma,nikhil.verma6@college.edu,MECH,Data Analyst,9.41,94,64,0,1,1,1,1,1,1,10,0,13,55,2,1
+STU0638,Tanvi Thakur,tanvi.thakur1@college.edu,CSE,Full-Stack,7.93,85,62,0,0,0,0,0,0,2,4,0,1,62,1,0
+STU0639,Aman Sinha,aman.sinha20@college.edu,CSE,Full-Stack,8.53,88,61,1,1,1,0,0,0,2,4,1,20,63,0,0
+STU0640,Varun Das,varun.das59@college.edu,ECE,Cloud/DevOps,5.92,77,90,0,1,1,0,0,0,4,10,2,0,79,1,1
+STU0641,Ananya Desai,ananya.desai23@college.edu,CSE,Cloud/DevOps,5.18,74,90,0,0,1,1,1,0,1,8,0,0,62,2,0
+STU0642,Meera Chauhan,meera.chauhan55@college.edu,CSE,Full-Stack,8.84,79,76,0,1,1,1,0,2,1,3,1,7,66,1,1
+STU0643,Aarav Iyer,aarav.iyer85@college.edu,ISE,Cloud/DevOps,6.67,84,90,1,0,1,1,1,1,1,8,2,25,43,0,1
+STU0644,Yash Raj,yash.raj94@college.edu,CSE,Cloud/DevOps,7.88,65,82,2,0,0,1,1,1,2,8,2,28,32,1,0
+STU0645,Sneha Joshi,sneha.joshi52@college.edu,MECH,QA,9.29,77,51,0,0,0,0,0,0,2,7,1,15,94,4,1
+STU0646,Ishaan Bhattacharya,ishaan.bhattacharya54@college.edu,ISE,Full-Stack,5.8,89,71,0,0,1,0,0,1,2,5,0,45,81,1,1
+STU0647,Ravi Gupta,ravi.gupta21@college.edu,CSE,QA,6.56,87,68,0,0,1,1,0,0,3,10,0,18,70,1,1
+STU0648,Aman Dixit,aman.dixit24@college.edu,MECH,Cloud/DevOps,6.31,87,76,0,0,0,0,0,1,2,3,0,0,73,3,0
+STU0649,Meera Iyer,meera.iyer62@college.edu,MECH,Full-Stack,7.89,85,89,0,1,1,1,0,1,2,9,0,32,98,2,1
+STU0650,Yash Singh,yash.singh9@college.edu,ECE,Cloud/DevOps,7.46,74,72,1,1,1,1,0,1,1,3,2,0,55,0,0
+STU0651,Asha Das,asha.das86@college.edu,ECE,Full-Stack,7.05,93,66,0,1,1,0,0,0,1,9,2,10,54,1,0
+STU0652,Nitin Thakur,nitin.thakur62@college.edu,ECE,QA,4.0,78,61,0,1,0,0,0,1,2,5,1,33,87,1,1
+STU0653,Srishti Gupta,srishti.gupta2@college.edu,ISE,QA,5.64,65,73,3,1,1,0,0,1,1,10,0,9,75,4,0
+STU0654,Rahul Kumar,rahul.kumar97@college.edu,MECH,Cloud/DevOps,8.64,87,67,0,1,0,0,0,0,1,6,1,19,70,1,0
+STU0655,Tanvi Raj,tanvi.raj7@college.edu,ISE,QA,7.72,70,76,0,1,0,0,0,1,3,9,3,51,75,3,1
+STU0656,Shruti Reddy,shruti.reddy59@college.edu,MECH,QA,6.76,72,50,0,1,0,1,0,1,1,4,2,22,44,1,0
+STU0657,Simran Dixit,simran.dixit41@college.edu,CSE,QA,5.12,77,80,0,1,0,0,0,0,2,3,2,15,67,2,0
+STU0658,Vikram Bansal,vikram.bansal53@college.edu,CSE,Full-Stack,8.88,91,80,0,1,0,0,0,0,2,4,0,22,69,0,0
+STU0659,Vivek Chopra,vivek.chopra66@college.edu,ISE,QA,7.45,88,88,0,0,0,0,0,2,3,8,0,11,55,0,1
+STU0660,Divya Gupta,divya.gupta29@college.edu,MECH,Cloud/DevOps,6.28,83,72,0,0,1,0,1,1,1,10,0,10,72,5,1
+STU0661,Asha Hegde,asha.hegde92@college.edu,MECH,Full-Stack,8.55,70,72,0,1,0,1,0,2,0,4,1,0,100,1,1
+STU0662,Nitin Das,nitin.das1@college.edu,ECE,Cloud/DevOps,6.41,86,55,0,1,0,0,0,0,1,7,0,22,80,2,0
+STU0663,Srishti Hegde,srishti.hegde90@college.edu,CSE,Full-Stack,7.82,74,80,0,0,0,0,1,0,2,5,0,26,74,1,0
+STU0664,Simran Iyer,simran.iyer92@college.edu,MECH,Full-Stack,8.45,79,53,4,1,1,0,1,0,0,7,1,0,66,2,0
+STU0665,Pallavi Nair,pallavi.nair25@college.edu,CSE,QA,6.94,91,94,2,0,1,0,0,2,2,6,0,42,70,3,1
+STU0666,Nandini Nair,nandini.nair92@college.edu,ECE,Full-Stack,8.32,89,82,0,1,0,0,1,1,3,9,2,56,78,2,1
+STU0667,Arjun Joshi,arjun.joshi99@college.edu,MECH,QA,10.0,80,40,1,0,0,0,0,2,1,5,0,49,91,0,1
+STU0668,Simran Sharma,simran.sharma68@college.edu,CSE,QA,8.25,86,65,0,1,1,0,0,0,2,10,0,58,53,1,1
+STU0669,Dhruv Rao,dhruv.rao89@college.edu,ISE,Data Analyst,8.15,84,86,0,0,1,0,0,1,2,4,2,0,56,2,1
+STU0670,Ishaan Chauhan,ishaan.chauhan65@college.edu,MECH,QA,5.05,74,87,1,1,1,0,0,0,2,6,0,0,65,1,0
+STU0671,Anjali Bansal,anjali.bansal44@college.edu,ECE,QA,7.52,76,100,1,1,1,0,0,0,1,5,1,67,83,4,1
+STU0672,Karthik Mishra,karthik.mishra78@college.edu,ECE,Cloud/DevOps,7.11,82,68,2,0,0,0,0,0,2,6,1,18,78,1,0
+STU0673,Siddharth Bose,siddharth.bose80@college.edu,ECE,Cloud/DevOps,6.86,76,61,0,1,1,0,0,0,0,5,1,35,60,1,0
+STU0674,Asha Rao,asha.rao65@college.edu,ECE,Full-Stack,8.47,50,62,1,0,1,0,0,1,2,8,1,48,74,3,1
+STU0675,Srishti Bhattacharya,srishti.bhattacharya75@college.edu,MECH,Cloud/DevOps,9.87,83,72,1,1,1,0,0,1,0,9,1,17,61,1,0
+STU0676,Aarav Desai,aarav.desai4@college.edu,MECH,Data Analyst,6.73,77,64,4,0,1,1,0,2,2,3,3,6,81,0,0
+STU0677,Nitin Gupta,nitin.gupta26@college.edu,ECE,Data Analyst,5.09,66,96,2,1,1,0,1,0,4,7,0,30,76,1,1
+STU0678,Meera Mehta,meera.mehta19@college.edu,CSE,Cloud/DevOps,7.68,87,87,0,0,0,1,1,2,4,6,0,8,88,5,1
+STU0679,Tushar Singh,tushar.singh46@college.edu,MECH,Full-Stack,10.0,66,51,0,0,1,1,0,1,2,6,0,27,63,3,1
+STU0680,Anushka Shetty,anushka.shetty31@college.edu,ECE,Full-Stack,10.0,89,74,0,0,0,0,1,0,1,9,1,22,78,4,1
+STU0681,Ishaan Mishra,ishaan.mishra88@college.edu,ECE,Full-Stack,9.45,82,70,0,0,1,1,1,0,1,3,0,31,47,4,0
+STU0682,Varun Nair,varun.nair80@college.edu,MECH,Data Analyst,7.62,83,76,1,0,1,0,0,0,1,8,0,13,78,3,0
+STU0683,Rachna Nair,rachna.nair93@college.edu,ISE,Cloud/DevOps,6.5,88,86,0,1,1,0,0,1,3,10,3,23,72,3,1
+STU0684,Sneha Kumar,sneha.kumar24@college.edu,ISE,Full-Stack,7.78,91,82,0,1,1,0,0,0,0,9,2,57,50,0,0
+STU0685,Arjun Pandey,arjun.pandey36@college.edu,ECE,Data Analyst,6.81,82,74,0,0,0,0,0,1,2,5,0,10,42,5,0
+STU0686,Rachna Mehta,rachna.mehta1@college.edu,ECE,QA,8.5,70,53,0,1,0,1,0,1,0,5,3,19,67,3,1
+STU0687,Arjun Menon,arjun.menon42@college.edu,CSE,Cloud/DevOps,7.47,85,65,2,0,0,0,1,0,2,10,1,55,77,0,1
+STU0688,Aman Gowda,aman.gowda10@college.edu,ECE,Data Analyst,5.39,84,64,0,0,0,0,0,0,3,5,1,0,49,1,0
+STU0689,Ishita Kumar,ishita.kumar65@college.edu,ISE,QA,8.05,68,86,0,1,1,0,0,1,2,9,0,5,63,3,1
+STU0690,Priya Gowda,priya.gowda29@college.edu,ISE,Cloud/DevOps,7.68,64,100,0,1,1,0,0,0,2,8,1,0,76,2,1
+STU0691,Divya Kapoor,divya.kapoor28@college.edu,MECH,Full-Stack,8.19,72,90,0,0,0,1,0,1,2,4,1,9,37,2,1
+STU0692,Nitin Gowda,nitin.gowda58@college.edu,ISE,Data Analyst,9.77,77,58,0,0,0,0,0,1,1,3,3,32,70,3,1
+STU0693,Meera Chauhan,meera.chauhan49@college.edu,CSE,QA,6.98,82,63,1,1,0,1,0,0,1,7,0,39,59,0,0
+STU0694,Tushar Kapoor,tushar.kapoor4@college.edu,ECE,QA,8.71,75,64,0,1,1,0,0,0,3,10,1,33,72,3,1
+STU0695,Arjun Kapoor,arjun.kapoor84@college.edu,ISE,Cloud/DevOps,7.12,66,66,0,1,0,0,0,0,4,4,2,0,72,0,1
+STU0696,Vikram Verma,vikram.verma99@college.edu,CSE,Full-Stack,5.91,72,81,0,1,1,0,0,1,2,6,2,1,64,4,1
+STU0697,Nitin Bose,nitin.bose88@college.edu,MECH,Full-Stack,8.61,82,46,0,1,1,0,0,1,1,6,2,25,71,1,1
+STU0698,Tushar Pandey,tushar.pandey83@college.edu,CSE,Data Analyst,7.52,70,47,0,0,1,0,0,2,1,3,0,0,71,4,1
+STU0699,Nandini Bhat,nandini.bhat5@college.edu,CSE,Full-Stack,6.66,77,92,0,1,1,0,0,1,0,3,2,40,46,0,0
+STU0700,Sneha Mehta,sneha.mehta72@college.edu,CSE,Data Analyst,7.04,72,100,0,1,1,0,0,0,2,7,2,0,78,4,1
+STU0701,Kunal Shetty,kunal.shetty58@college.edu,MECH,QA,7.49,70,57,1,1,1,0,0,1,1,8,2,49,43,4,1
+STU0702,Aditi Shetty,aditi.shetty87@college.edu,CSE,Full-Stack,7.09,89,82,0,1,0,1,0,0,0,4,1,0,86,1,0
+STU0703,Rachna Singh,rachna.singh90@college.edu,CSE,Cloud/DevOps,9.03,68,81,0,0,0,1,1,0,3,4,1,6,82,2,1
+STU0704,Nikhil Chopra,nikhil.chopra78@college.edu,CSE,Cloud/DevOps,4.86,77,77,0,1,0,0,1,0,2,10,1,29,68,3,1
+STU0705,Ishaan Bansal,ishaan.bansal85@college.edu,CSE,QA,10.0,66,84,2,1,0,0,0,0,0,5,2,37,89,2,0
+STU0706,Tushar Das,tushar.das18@college.edu,MECH,Cloud/DevOps,7.42,91,70,1,1,1,0,0,0,1,5,1,8,67,4,0
+STU0707,Megha Hegde,megha.hegde2@college.edu,ISE,Full-Stack,8.55,83,61,2,1,1,1,0,1,4,3,1,11,80,5,1
+STU0708,Aarav Bansal,aarav.bansal69@college.edu,CSE,Cloud/DevOps,7.46,89,100,0,0,0,1,0,0,0,6,0,31,79,4,0
+STU0709,Pranav Bose,pranav.bose53@college.edu,ISE,Data Analyst,5.77,86,95,0,1,1,0,0,0,1,5,0,22,56,3,0
+STU0710,Abhishek Mehta,abhishek.mehta25@college.edu,CSE,Data Analyst,8.27,81,81,0,1,0,1,1,0,0,3,0,17,38,2,0
+STU0711,Srishti Agarwal,srishti.agarwal83@college.edu,CSE,Cloud/DevOps,8.0,77,69,0,0,1,0,0,0,3,4,3,0,46,2,1
+STU0712,Varun Desai,varun.desai26@college.edu,MECH,Cloud/DevOps,6.6,95,76,1,1,1,1,0,0,1,8,0,37,54,3,0
+STU0713,Karthik Thakur,karthik.thakur13@college.edu,ECE,Full-Stack,8.24,76,67,1,1,0,1,0,0,2,6,1,52,43,4,1
+STU0714,Rishabh Sinha,rishabh.sinha58@college.edu,ECE,Cloud/DevOps,7.56,87,70,2,1,0,0,0,0,3,5,2,0,37,4,0
+STU0715,Aman Hegde,aman.hegde41@college.edu,MECH,Data Analyst,6.62,89,89,0,1,0,0,1,1,4,3,1,7,100,1,1
+STU0716,Rishabh Thakur,rishabh.thakur29@college.edu,MECH,Cloud/DevOps,7.58,77,61,0,1,0,1,0,1,2,8,0,33,62,3,1
+STU0717,Karthik Bhat,karthik.bhat62@college.edu,MECH,QA,7.98,59,64,0,1,1,1,0,2,2,8,1,15,71,0,1
+STU0718,Megha Sinha,megha.sinha71@college.edu,CSE,Data Analyst,8.08,82,79,2,1,1,0,0,0,2,4,1,6,62,2,0
+STU0719,Anjali Iyer,anjali.iyer69@college.edu,ISE,Cloud/DevOps,7.04,73,69,1,1,1,0,0,1,3,4,2,15,71,1,1
+STU0720,Rohan Patel,rohan.patel65@college.edu,CSE,QA,7.42,77,80,0,1,0,1,0,0,2,6,0,0,68,1,0
+STU0721,Arjun Mehta,arjun.mehta70@college.edu,MECH,Data Analyst,7.75,81,55,0,1,1,0,0,1,2,8,0,0,77,2,1
+STU0722,Riya Das,riya.das99@college.edu,ECE,Data Analyst,8.77,80,53,0,0,1,0,0,0,3,10,0,0,49,4,1
+STU0723,Dhruv Reddy,dhruv.reddy51@college.edu,ECE,Full-Stack,9.59,84,79,0,0,0,1,0,0,1,6,1,48,63,4,1
+STU0724,Pallavi Verma,pallavi.verma97@college.edu,ISE,QA,6.23,86,73,0,0,0,0,0,0,1,5,0,39,75,3,0
+STU0725,Sneha Menon,sneha.menon95@college.edu,MECH,Cloud/DevOps,6.44,71,72,0,1,0,0,0,0,1,3,1,14,65,0,0
+STU0726,Abhishek Sinha,abhishek.sinha30@college.edu,CSE,Cloud/DevOps,6.16,86,58,0,1,0,0,0,2,1,8,1,0,81,5,1
+STU0727,Abhishek Singh,abhishek.singh86@college.edu,ISE,Cloud/DevOps,6.31,100,80,0,1,1,0,0,2,1,9,0,0,77,2,1
+STU0728,Sameer Agarwal,sameer.agarwal6@college.edu,CSE,Cloud/DevOps,6.37,74,71,1,0,0,0,1,0,4,4,2,9,65,4,1
+STU0729,Asha Raj,asha.raj95@college.edu,ECE,Data Analyst,8.3,64,70,0,0,1,1,0,1,2,9,1,0,59,3,1
+STU0730,Anushka Shetty,anushka.shetty47@college.edu,CSE,Cloud/DevOps,7.87,79,82,0,1,0,1,0,2,2,9,1,0,67,0,1
+STU0731,Abhishek Bansal,abhishek.bansal46@college.edu,ECE,QA,9.33,75,94,1,0,0,0,1,2,2,10,0,24,54,2,1
+STU0732,Vivek Sharma,vivek.sharma65@college.edu,ISE,QA,6.68,88,84,1,0,1,0,0,1,2,5,2,0,75,2,1
+STU0733,Abhishek Kumar,abhishek.kumar66@college.edu,ECE,Data Analyst,4.47,81,72,0,0,0,0,0,2,1,5,1,52,74,1,1
+STU0734,Sneha Verma,sneha.verma47@college.edu,CSE,Data Analyst,7.56,86,69,1,0,1,0,0,0,2,9,3,41,67,2,1
+STU0735,Tanvi Joshi,tanvi.joshi62@college.edu,MECH,QA,8.43,79,77,0,0,1,0,0,0,3,6,2,9,69,4,1
+STU0736,Rachna Verma,rachna.verma83@college.edu,MECH,Full-Stack,8.01,68,74,0,1,0,0,0,2,3,6,0,19,59,1,1
+STU0737,Arjun Iyer,arjun.iyer74@college.edu,ISE,Data Analyst,7.38,80,79,0,0,1,0,0,2,2,3,1,23,52,3,1
+STU0738,Aman Menon,aman.menon8@college.edu,ISE,Cloud/DevOps,8.61,74,55,2,1,1,0,0,0,2,5,1,29,69,1,0
+STU0739,Ishita Bansal,ishita.bansal77@college.edu,CSE,Cloud/DevOps,9.15,75,99,2,0,0,0,1,0,3,4,1,26,39,3,0
+STU0740,Pooja Dixit,pooja.dixit78@college.edu,MECH,QA,5.98,67,76,0,1,0,1,0,0,1,5,1,23,82,0,0
+STU0741,Abhishek Mishra,abhishek.mishra77@college.edu,ISE,Data Analyst,9.34,84,97,0,1,0,1,0,0,3,7,2,66,72,3,1
+STU0742,Rahul Bhat,rahul.bhat59@college.edu,CSE,Data Analyst,7.4,93,48,0,1,1,0,1,0,3,9,2,34,94,2,1
+STU0743,Ishaan Iyer,ishaan.iyer14@college.edu,CSE,Data Analyst,7.79,82,56,0,1,0,1,0,0,2,9,0,0,84,1,1
+STU0744,Kavya Desai,kavya.desai23@college.edu,MECH,Full-Stack,7.2,75,68,0,1,1,0,1,0,1,4,2,32,90,2,1
+STU0745,Priya Bhattacharya,priya.bhattacharya85@college.edu,ISE,Full-Stack,6.85,78,83,1,1,1,0,0,1,3,9,1,8,63,2,1
+STU0746,Ishita Mishra,ishita.mishra48@college.edu,CSE,QA,8.83,76,90,0,0,0,0,0,2,1,6,0,1,85,0,1
+STU0747,Sameer Shetty,sameer.shetty45@college.edu,CSE,QA,5.45,83,73,2,0,0,1,1,1,3,5,0,44,47,2,0
+STU0748,Varun Bhattacharya,varun.bhattacharya99@college.edu,ISE,Full-Stack,4.52,75,94,0,0,0,0,0,0,3,7,0,0,72,0,0
+STU0749,Vivek Mishra,vivek.mishra33@college.edu,ISE,Full-Stack,7.8,88,57,0,1,1,0,0,1,1,3,1,25,83,0,1
+STU0750,Aman Joshi,aman.joshi67@college.edu,CSE,QA,6.42,75,78,0,0,0,0,0,0,1,6,0,15,45,1,0
+STU0751,Ravi Chauhan,ravi.chauhan53@college.edu,ECE,Full-Stack,7.44,86,75,0,0,1,0,0,1,4,5,0,6,39,4,1
+STU0752,Swati Mehta,swati.mehta34@college.edu,MECH,Cloud/DevOps,7.48,68,71,0,0,1,1,1,0,2,7,2,22,59,1,1
+STU0753,Meera Bansal,meera.bansal97@college.edu,ISE,QA,6.98,66,77,0,0,0,0,1,0,2,10,1,0,64,3,1
+STU0754,Sneha Hegde,sneha.hegde72@college.edu,MECH,Cloud/DevOps,6.38,86,72,0,1,1,0,0,1,1,7,0,0,61,5,1
+STU0755,Aman Gowda,aman.gowda91@college.edu,MECH,Data Analyst,6.99,83,69,0,1,1,1,0,0,2,4,2,53,71,0,1
+STU0756,Abhishek Dixit,abhishek.dixit90@college.edu,ISE,Full-Stack,5.62,84,98,0,0,0,0,0,0,1,6,0,0,64,2,0
+STU0757,Dhruv Bansal,dhruv.bansal44@college.edu,CSE,Data Analyst,8.01,88,81,0,1,1,0,1,1,2,9,0,36,77,0,1
+STU0758,Mohit Sharma,mohit.sharma12@college.edu,ISE,QA,8.79,79,73,0,0,0,0,0,0,4,9,3,21,61,0,1
+STU0759,Priya Kumar,priya.kumar34@college.edu,ISE,Cloud/DevOps,6.96,75,76,0,1,0,1,0,2,2,4,0,26,77,1,1
+STU0760,Vivek Singh,vivek.singh93@college.edu,MECH,QA,8.11,78,91,0,1,1,0,0,0,3,7,0,33,73,2,1
+STU0761,Asha Gupta,asha.gupta23@college.edu,MECH,QA,8.23,76,78,0,1,0,0,0,1,3,3,2,15,67,2,1
+STU0762,Siddharth Kapoor,siddharth.kapoor25@college.edu,CSE,Data Analyst,7.46,81,88,0,1,1,1,0,1,3,5,0,3,62,0,1
+STU0763,Meera Singh,meera.singh47@college.edu,ISE,Full-Stack,6.79,83,65,0,1,0,0,0,0,2,5,0,7,67,4,0
+STU0764,Priya Raj,priya.raj52@college.edu,ECE,QA,6.63,83,65,2,1,1,1,0,0,0,9,2,0,76,4,0
+STU0765,Rachna Nair,rachna.nair67@college.edu,CSE,Full-Stack,8.26,75,68,0,0,1,0,1,0,0,4,0,30,53,2,0
+STU0766,Srishti Kapoor,srishti.kapoor93@college.edu,ECE,Cloud/DevOps,6.06,75,70,2,0,0,0,0,0,3,7,2,4,84,1,0
+STU0767,Abhishek Nair,abhishek.nair59@college.edu,MECH,Full-Stack,9.58,83,76,0,1,1,0,1,0,4,7,3,5,82,0,1
+STU0768,Sneha Mishra,sneha.mishra65@college.edu,CSE,Full-Stack,5.13,100,85,0,0,0,0,0,0,3,7,0,13,82,1,1
+STU0769,Tanvi Joshi,tanvi.joshi66@college.edu,ECE,Cloud/DevOps,6.33,80,92,0,0,0,1,1,0,1,10,3,22,67,1,1
+STU0770,Ishaan Bhattacharya,ishaan.bhattacharya99@college.edu,ISE,Cloud/DevOps,6.75,82,84,0,1,1,0,1,0,4,10,3,30,65,3,1
+STU0771,Meera Agarwal,meera.agarwal76@college.edu,CSE,QA,8.14,67,92,0,1,1,0,0,1,2,4,0,15,40,1,0
+STU0772,Varun Kumar,varun.kumar49@college.edu,ISE,Data Analyst,7.83,95,76,1,0,1,0,0,1,1,8,2,49,64,0,1
+STU0773,Kunal Gowda,kunal.gowda67@college.edu,CSE,Cloud/DevOps,7.75,79,69,0,0,0,0,0,1,2,6,2,0,67,2,1
+STU0774,Nikhil Reddy,nikhil.reddy52@college.edu,ECE,Full-Stack,9.72,89,73,1,0,1,1,0,0,2,5,0,12,77,4,1
+STU0775,Sameer Chauhan,sameer.chauhan46@college.edu,ISE,Cloud/DevOps,7.75,66,97,1,0,0,0,0,1,2,5,1,0,75,1,0
+STU0776,Meera Nair,meera.nair64@college.edu,ISE,Data Analyst,6.07,84,77,0,1,1,0,0,2,3,6,0,24,79,1,1
+STU0777,Varun Bose,varun.bose30@college.edu,ISE,Data Analyst,5.95,76,78,0,0,1,1,0,0,3,8,1,0,88,1,1
+STU0778,Kavya Desai,kavya.desai16@college.edu,CSE,QA,7.93,80,81,0,0,1,0,0,1,1,3,0,39,59,2,0
+STU0779,Tushar Singh,tushar.singh62@college.edu,ECE,Cloud/DevOps,8.06,81,63,0,1,1,0,0,0,1,10,0,0,69,2,0
+STU0780,Aman Raj,aman.raj63@college.edu,ISE,Cloud/DevOps,5.57,87,62,0,0,1,0,0,0,2,9,2,21,93,1,1
+STU0781,Abhishek Iyer,abhishek.iyer7@college.edu,MECH,QA,8.55,76,90,1,0,1,0,0,0,3,3,1,0,67,3,0
+STU0782,Dhruv Gowda,dhruv.gowda51@college.edu,ISE,QA,8.53,95,41,0,1,0,1,0,0,2,4,2,4,57,2,0
+STU0783,Ravi Agarwal,ravi.agarwal41@college.edu,CSE,Full-Stack,8.73,73,79,0,0,0,1,0,0,1,6,1,20,70,5,1
+STU0784,Ishaan Desai,ishaan.desai42@college.edu,ECE,Cloud/DevOps,6.46,100,99,0,0,0,0,0,0,2,5,1,0,67,0,0
+STU0785,Srishti Mehta,srishti.mehta31@college.edu,ECE,QA,5.46,83,78,0,0,0,0,1,1,3,8,0,11,66,5,1
+STU0786,Divya Rao,divya.rao64@college.edu,MECH,Data Analyst,8.85,86,77,2,1,1,0,0,0,3,9,3,44,62,0,1
+STU0787,Ravi Hegde,ravi.hegde47@college.edu,MECH,Cloud/DevOps,6.79,92,73,0,1,0,1,0,2,3,10,0,44,60,2,1
+STU0788,Sneha Iyer,sneha.iyer74@college.edu,ISE,Full-Stack,6.27,95,78,0,0,0,0,0,1,1,7,0,14,66,1,0
+STU0789,Shruti Pandey,shruti.pandey49@college.edu,ISE,Data Analyst,7.48,82,80,0,1,1,0,0,2,2,5,0,29,73,1,1
+STU0790,Sameer Sharma,sameer.sharma23@college.edu,MECH,QA,8.2,80,81,0,1,1,0,0,1,1,5,0,13,76,5,1
+STU0791,Mohit Chauhan,mohit.chauhan63@college.edu,ECE,Cloud/DevOps,7.81,69,82,0,1,0,1,0,1,4,3,2,12,75,0,1
+STU0792,Riya Desai,riya.desai89@college.edu,ISE,Full-Stack,7.5,66,69,0,1,0,0,0,0,3,6,0,26,53,4,1
+STU0793,Varun Bhattacharya,varun.bhattacharya81@college.edu,CSE,QA,6.52,68,57,0,1,1,0,0,1,1,8,1,17,61,0,1
+STU0794,Varun Hegde,varun.hegde47@college.edu,ECE,Cloud/DevOps,6.95,90,84,0,0,0,0,0,2,3,3,0,19,97,4,1
+STU0795,Kunal Joshi,kunal.joshi45@college.edu,ISE,Data Analyst,8.34,62,40,0,1,0,1,0,2,1,7,1,18,76,4,1
+STU0796,Pranav Chauhan,pranav.chauhan87@college.edu,MECH,QA,6.95,90,61,0,1,0,1,0,0,1,4,3,9,75,5,1
+STU0797,Ishaan Kapoor,ishaan.kapoor60@college.edu,ISE,Data Analyst,7.72,70,67,1,1,0,0,0,1,3,8,0,0,79,2,1
+STU0798,Kunal Bansal,kunal.bansal10@college.edu,CSE,Data Analyst,7.69,89,50,0,0,0,1,0,2,1,8,0,15,66,5,1
+STU0799,Abhishek Chauhan,abhishek.chauhan41@college.edu,ECE,Cloud/DevOps,6.19,91,78,0,0,1,0,0,0,2,9,0,0,61,3,0
+STU0800,Anjali Dixit,anjali.dixit47@college.edu,MECH,QA,6.28,71,69,0,1,1,1,0,0,1,5,1,0,60,1,0
+STU0801,Sneha Patel,sneha.patel17@college.edu,ISE,Cloud/DevOps,6.98,77,78,0,0,0,1,0,0,0,4,0,26,78,1,0
+STU0802,Pooja Verma,pooja.verma51@college.edu,CSE,Full-Stack,6.47,76,81,3,1,1,1,0,0,2,4,0,6,82,5,0
+STU0803,Sameer Gupta,sameer.gupta4@college.edu,MECH,Full-Stack,7.57,67,71,2,1,1,0,0,0,3,4,1,10,69,2,0
+STU0804,Varun Menon,varun.menon11@college.edu,MECH,Cloud/DevOps,6.06,84,81,0,0,0,0,0,1,3,6,0,27,68,1,1
+STU0805,Shruti Kapoor,shruti.kapoor57@college.edu,ISE,Data Analyst,6.97,77,94,1,1,1,0,0,0,2,5,1,54,74,2,1
+STU0806,Aditi Singh,aditi.singh85@college.edu,ECE,Cloud/DevOps,7.76,89,66,1,1,1,0,0,1,0,10,1,13,70,0,0
+STU0807,Nandini Raj,nandini.raj71@college.edu,MECH,Data Analyst,5.44,90,75,0,0,0,1,1,1,3,5,0,0,59,3,1
+STU0808,Rachna Agarwal,rachna.agarwal81@college.edu,MECH,Cloud/DevOps,7.57,81,78,1,0,0,0,0,1,2,8,1,0,76,1,1
+STU0809,Sameer Das,sameer.das12@college.edu,MECH,Cloud/DevOps,4.69,73,72,1,1,1,1,1,0,0,8,0,24,66,2,0
+STU0810,Kunal Mehta,kunal.mehta20@college.edu,ECE,Full-Stack,7.97,69,82,0,1,0,0,0,0,4,3,1,13,95,0,1
+STU0811,Ishita Iyer,ishita.iyer45@college.edu,ECE,QA,7.58,72,64,1,1,1,0,0,0,2,3,1,0,65,1,0
+STU0812,Ravi Sinha,ravi.sinha97@college.edu,MECH,Cloud/DevOps,8.13,82,60,0,0,0,0,0,1,0,3,1,1,82,2,0
+STU0813,Swati Kapoor,swati.kapoor77@college.edu,ISE,Full-Stack,8.93,93,51,0,1,1,0,0,0,0,8,1,12,63,3,0
+STU0814,Siddharth Mishra,siddharth.mishra72@college.edu,MECH,QA,8.7,72,64,1,1,1,0,0,0,4,6,1,25,55,1,1
+STU0815,Rahul Shetty,rahul.shetty49@college.edu,ISE,Cloud/DevOps,9.35,86,91,0,1,1,0,1,2,1,4,0,32,57,3,1
+STU0816,Swati Thakur,swati.thakur67@college.edu,ECE,Cloud/DevOps,8.11,74,51,0,0,0,0,0,0,1,7,0,32,84,0,0
+STU0817,Kunal Nair,kunal.nair9@college.edu,ISE,Data Analyst,6.51,81,80,0,1,1,0,0,0,1,7,1,4,59,1,0
+STU0818,Neha Agarwal,neha.agarwal80@college.edu,MECH,Cloud/DevOps,8.07,65,76,0,1,1,0,0,1,1,10,0,0,78,1,1
+STU0819,Siddharth Chauhan,siddharth.chauhan3@college.edu,ISE,Full-Stack,8.69,84,86,0,0,0,0,0,0,2,3,1,58,81,4,1
+STU0820,Sneha Desai,sneha.desai37@college.edu,ECE,Data Analyst,6.34,66,84,2,0,0,0,0,0,4,10,1,55,66,4,1
+STU0821,Aarav Das,aarav.das12@college.edu,ISE,Full-Stack,7.02,74,91,0,0,1,0,0,0,1,10,1,12,78,5,1
+STU0822,Pooja Bhat,pooja.bhat54@college.edu,ECE,QA,7.41,93,66,2,1,0,0,0,1,3,8,0,10,39,2,0
+STU0823,Nandini Singh,nandini.singh43@college.edu,CSE,Data Analyst,8.34,63,71,0,0,0,1,1,0,2,3,0,0,72,2,0
+STU0824,Anjali Bansal,anjali.bansal10@college.edu,MECH,Data Analyst,6.47,77,62,0,0,0,0,0,2,2,6,0,28,63,2,1
+STU0825,Varun Shetty,varun.shetty2@college.edu,CSE,Data Analyst,6.1,78,54,0,1,1,0,0,0,2,9,2,0,75,1,1
+STU0826,Yash Thakur,yash.thakur95@college.edu,CSE,Data Analyst,8.1,92,57,0,0,1,0,0,0,3,10,0,21,51,2,1
+STU0827,Vikram Bose,vikram.bose61@college.edu,MECH,Cloud/DevOps,8.27,83,67,0,1,0,0,0,0,1,8,1,19,90,1,1
+STU0828,Rahul Singh,rahul.singh96@college.edu,CSE,Cloud/DevOps,5.97,69,77,3,0,1,0,0,0,3,10,2,44,98,3,1
+STU0829,Mohit Chopra,mohit.chopra26@college.edu,ECE,Full-Stack,7.85,82,80,0,1,0,1,0,0,2,6,0,36,70,1,1
+STU0830,Neha Thakur,neha.thakur82@college.edu,MECH,Cloud/DevOps,8.3,78,52,0,1,1,0,1,0,3,3,1,39,50,3,1
+STU0831,Rahul Raj,rahul.raj75@college.edu,CSE,QA,6.7,80,68,0,0,1,0,0,0,1,6,1,21,66,0,0
+STU0832,Aarav Singh,aarav.singh75@college.edu,MECH,Data Analyst,8.89,78,56,1,1,1,1,1,0,4,8,0,6,47,3,1
+STU0833,Priya Thakur,priya.thakur21@college.edu,MECH,Full-Stack,5.9,86,84,0,1,0,1,0,0,0,8,0,0,78,2,0
+STU0834,Mohit Gupta,mohit.gupta8@college.edu,ECE,Data Analyst,8.32,77,69,0,1,1,0,0,0,4,4,1,8,83,0,1
+STU0835,Karthik Sinha,karthik.sinha30@college.edu,ECE,Cloud/DevOps,7.32,85,70,0,1,1,1,0,2,2,10,2,0,86,5,1
+STU0836,Siddharth Patel,siddharth.patel89@college.edu,MECH,Cloud/DevOps,8.75,82,76,0,1,0,0,0,0,1,5,0,0,42,0,0
+STU0837,Varun Singh,varun.singh63@college.edu,MECH,Cloud/DevOps,7.62,77,46,2,1,1,0,0,2,3,10,0,0,77,2,1
+STU0838,Siddharth Rao,siddharth.rao70@college.edu,ECE,Cloud/DevOps,7.52,83,73,1,1,1,0,0,0,0,10,2,32,60,1,0
+STU0839,Anjali Verma,anjali.verma9@college.edu,ISE,QA,8.97,63,88,3,1,1,0,1,0,2,7,3,38,76,2,1
+STU0840,Varun Hegde,varun.hegde59@college.edu,CSE,QA,6.57,74,97,0,0,0,0,1,1,2,5,0,0,63,0,0
+STU0841,Aditi Hegde,aditi.hegde80@college.edu,ISE,Cloud/DevOps,6.96,59,67,0,0,1,1,0,0,4,4,3,4,60,2,1
+STU0842,Nitin Shetty,nitin.shetty25@college.edu,MECH,Data Analyst,7.34,71,83,3,0,1,1,0,1,0,7,0,0,71,0,0
+STU0843,Rishabh Mishra,rishabh.mishra83@college.edu,ECE,Full-Stack,7.79,67,63,0,1,0,0,0,1,4,4,2,0,47,0,1
+STU0844,Ishita Kumar,ishita.kumar6@college.edu,ISE,Data Analyst,7.9,74,76,0,1,1,0,0,0,1,3,0,17,53,2,0
+STU0845,Siddharth Desai,siddharth.desai63@college.edu,ISE,Full-Stack,6.39,80,70,0,0,0,0,0,0,2,3,0,6,78,3,0
+STU0846,Aman Shetty,aman.shetty85@college.edu,MECH,Cloud/DevOps,6.94,94,71,0,0,0,0,0,0,3,3,0,2,66,2,0
+STU0847,Divya Das,divya.das78@college.edu,CSE,Full-Stack,8.89,81,75,0,0,0,0,0,0,3,6,1,19,80,3,1
+STU0848,Anushka Sinha,anushka.sinha11@college.edu,MECH,Full-Stack,7.52,79,63,0,0,1,0,0,0,2,8,2,0,41,5,1
+STU0849,Srishti Mishra,srishti.mishra48@college.edu,CSE,Cloud/DevOps,7.8,81,56,0,1,1,0,0,0,2,3,2,36,84,2,1
+STU0850,Rohan Chopra,rohan.chopra10@college.edu,ISE,Full-Stack,6.31,75,68,3,1,0,0,0,0,1,4,0,9,68,0,0
+STU0851,Abhishek Shetty,abhishek.shetty25@college.edu,ISE,Data Analyst,6.52,91,89,1,1,1,0,0,2,3,5,0,0,62,2,1
+STU0852,Srishti Mishra,srishti.mishra96@college.edu,CSE,Cloud/DevOps,6.31,91,97,0,1,1,1,0,1,1,10,1,0,58,1,1
+STU0853,Ravi Pandey,ravi.pandey14@college.edu,ISE,Data Analyst,6.29,80,61,0,1,1,0,0,0,1,9,1,22,86,2,1
+STU0854,Dhruv Bhat,dhruv.bhat85@college.edu,ISE,QA,8.43,80,75,1,0,0,0,0,0,1,8,0,35,69,2,0
+STU0855,Rishabh Chauhan,rishabh.chauhan48@college.edu,MECH,QA,6.15,92,56,3,1,0,0,0,0,4,8,0,17,40,4,0
+STU0856,Vivek Thakur,vivek.thakur73@college.edu,ISE,QA,9.35,74,69,1,0,0,1,0,0,2,7,1,44,35,0,0
+STU0857,Divya Dixit,divya.dixit58@college.edu,MECH,Full-Stack,7.58,51,71,0,1,1,0,0,0,4,3,2,0,56,1,1
+STU0858,Nikhil Patel,nikhil.patel67@college.edu,ISE,Cloud/DevOps,5.94,65,87,0,0,1,1,0,1,1,3,0,0,100,2,0
+STU0859,Megha Das,megha.das28@college.edu,ECE,Full-Stack,9.05,86,69,2,1,0,0,0,1,1,7,0,0,59,4,0
+STU0860,Srishti Menon,srishti.menon13@college.edu,CSE,QA,6.19,100,69,0,0,0,0,1,0,3,8,0,0,68,5,1
+STU0861,Kavya Iyer,kavya.iyer34@college.edu,ECE,Data Analyst,7.9,85,80,1,1,1,0,0,0,1,6,0,11,75,2,0
+STU0862,Varun Chopra,varun.chopra12@college.edu,MECH,Data Analyst,8.05,78,88,0,1,0,0,0,2,3,4,0,9,83,2,1
+STU0863,Rishabh Bhattacharya,rishabh.bhattacharya23@college.edu,MECH,Full-Stack,6.99,84,80,2,1,0,0,1,0,1,7,3,5,53,3,0
+STU0864,Arjun Shetty,arjun.shetty11@college.edu,CSE,Cloud/DevOps,8.62,98,89,0,0,0,0,0,0,1,8,0,1,96,4,1
+STU0865,Swati Mishra,swati.mishra16@college.edu,ISE,Full-Stack,6.55,82,98,0,0,0,1,0,0,2,9,1,28,67,0,1
+STU0866,Ananya Chopra,ananya.chopra68@college.edu,CSE,Cloud/DevOps,9.22,71,83,0,0,0,0,1,0,3,5,0,12,100,4,1
+STU0867,Rishabh Das,rishabh.das20@college.edu,CSE,QA,8.52,89,75,0,1,1,0,0,0,1,10,0,18,86,4,1
+STU0868,Vivek Reddy,vivek.reddy29@college.edu,MECH,Cloud/DevOps,6.86,88,65,0,1,0,0,0,0,1,9,0,24,76,1,0
+STU0869,Kavya Iyer,kavya.iyer44@college.edu,CSE,QA,8.78,79,83,0,1,1,1,0,0,2,3,2,27,61,1,1
+STU0870,Srishti Bansal,srishti.bansal34@college.edu,CSE,QA,8.21,72,75,0,0,0,0,0,0,2,9,0,27,69,4,1
+STU0871,Ravi Iyer,ravi.iyer98@college.edu,ISE,QA,7.56,87,92,0,0,0,1,0,0,1,6,0,0,84,0,0
+STU0872,Simran Bansal,simran.bansal84@college.edu,ISE,Data Analyst,6.98,65,47,0,1,0,0,1,0,1,6,0,7,69,0,0
+STU0873,Rohan Raj,rohan.raj56@college.edu,ECE,Full-Stack,9.31,69,70,0,1,1,0,0,0,3,4,0,8,69,0,0
+STU0874,Nitin Mishra,nitin.mishra55@college.edu,ECE,Cloud/DevOps,5.23,78,78,1,1,0,0,0,1,4,6,0,40,88,3,1
+STU0875,Rishabh Gowda,rishabh.gowda77@college.edu,CSE,Cloud/DevOps,7.12,96,93,1,1,0,0,0,1,2,5,1,21,100,2,1
+STU0876,Pranav Dixit,pranav.dixit80@college.edu,ISE,QA,5.61,76,79,0,0,0,0,0,1,1,3,1,9,99,4,1
+STU0877,Abhishek Nair,abhishek.nair88@college.edu,ECE,Data Analyst,5.41,75,71,0,1,1,0,1,0,1,4,2,18,73,2,0
+STU0878,Neha Gupta,neha.gupta32@college.edu,ISE,Cloud/DevOps,6.82,85,78,0,0,1,0,0,1,1,3,1,0,58,0,0
+STU0879,Tanvi Joshi,tanvi.joshi40@college.edu,MECH,QA,7.62,82,74,2,1,0,0,0,2,3,3,0,23,62,0,1
+STU0880,Tanvi Bose,tanvi.bose95@college.edu,ISE,Data Analyst,6.84,74,92,0,0,0,0,0,0,1,7,2,4,77,1,0
+STU0881,Srishti Bhattacharya,srishti.bhattacharya80@college.edu,ISE,Full-Stack,5.96,68,65,0,1,1,0,1,0,0,9,1,0,74,1,0
+STU0882,Rachna Singh,rachna.singh33@college.edu,ISE,Full-Stack,6.46,86,72,0,0,0,0,0,0,3,7,0,8,69,1,0
+STU0883,Siddharth Raj,siddharth.raj7@college.edu,MECH,Full-Stack,7.44,94,77,0,1,0,0,1,1,3,4,2,12,79,2,1
+STU0884,Ishaan Raj,ishaan.raj85@college.edu,ECE,Full-Stack,8.3,89,58,0,0,0,1,0,1,2,3,0,29,49,3,1
+STU0885,Nikhil Shetty,nikhil.shetty30@college.edu,MECH,Full-Stack,7.6,84,74,0,1,0,0,0,0,1,8,2,21,51,1,0
+STU0886,Simran Reddy,simran.reddy24@college.edu,ISE,QA,7.4,62,64,0,0,0,1,0,0,1,3,0,0,58,0,0
+STU0887,Arjun Thakur,arjun.thakur68@college.edu,ECE,Cloud/DevOps,9.45,66,95,0,0,1,0,0,0,1,10,1,49,33,0,0
+STU0888,Riya Verma,riya.verma3@college.edu,ECE,Cloud/DevOps,7.8,69,83,0,0,1,0,0,0,1,8,0,21,78,2,0
+STU0889,Mohit Chopra,mohit.chopra31@college.edu,ECE,Full-Stack,6.73,87,65,3,1,0,0,1,0,0,7,1,41,52,5,0
+STU0890,Ishaan Patel,ishaan.patel72@college.edu,ECE,Data Analyst,4.0,67,66,0,0,1,0,0,0,2,5,1,5,82,4,0
+STU0891,Tanvi Bansal,tanvi.bansal85@college.edu,ISE,Full-Stack,9.7,84,63,0,1,0,0,1,1,3,9,1,28,66,0,1
+STU0892,Ishita Das,ishita.das54@college.edu,ISE,Data Analyst,7.01,85,86,0,1,1,1,0,2,2,9,0,18,53,0,1
+STU0893,Megha Bhat,megha.bhat58@college.edu,ISE,Data Analyst,7.89,91,84,0,0,1,0,0,1,3,5,0,5,66,1,1
+STU0894,Rachna Nair,rachna.nair18@college.edu,ECE,Data Analyst,7.75,78,73,0,1,1,1,0,2,3,9,3,5,73,1,1
+STU0895,Kavya Verma,kavya.verma41@college.edu,CSE,Full-Stack,5.9,93,81,0,1,0,1,0,2,4,5,1,0,71,2,1
+STU0896,Rishabh Menon,rishabh.menon94@college.edu,CSE,Cloud/DevOps,7.94,82,67,0,1,0,0,0,0,3,9,0,2,64,0,1
+STU0897,Kunal Chopra,kunal.chopra57@college.edu,ECE,Data Analyst,7.7,72,68,0,1,0,1,0,0,3,6,0,20,59,1,0
+STU0898,Vikram Iyer,vikram.iyer24@college.edu,CSE,Cloud/DevOps,9.23,63,79,0,1,1,0,0,0,1,6,2,21,64,1,1
+STU0899,Vivek Das,vivek.das30@college.edu,CSE,Cloud/DevOps,6.08,73,53,1,1,0,0,0,0,3,4,2,23,47,3,0
+STU0900,Ravi Bhattacharya,ravi.bhattacharya18@college.edu,MECH,Cloud/DevOps,6.66,63,61,0,0,0,0,0,0,1,5,0,46,54,2,0
+STU0901,Ishaan Sinha,ishaan.sinha61@college.edu,ISE,Data Analyst,8.15,75,90,0,1,1,1,1,0,2,6,1,35,60,1,1
+STU0902,Abhishek Singh,abhishek.singh53@college.edu,CSE,Cloud/DevOps,5.93,81,81,0,0,1,0,0,0,2,9,0,2,61,1,0
+STU0903,Abhishek Nair,abhishek.nair97@college.edu,ISE,Full-Stack,6.48,89,75,0,1,0,0,1,1,3,5,1,21,79,3,1
+STU0904,Yash Sinha,yash.sinha89@college.edu,ECE,QA,6.28,69,66,1,1,0,1,0,1,2,6,0,0,75,1,0
+STU0905,Swati Bansal,swati.bansal6@college.edu,MECH,Cloud/DevOps,6.85,78,61,2,1,0,0,0,1,1,9,1,0,40,1,0
+STU0906,Pallavi Singh,pallavi.singh67@college.edu,CSE,QA,6.25,91,70,0,1,1,0,0,0,2,10,1,43,88,1,1
+STU0907,Arjun Thakur,arjun.thakur67@college.edu,MECH,Full-Stack,7.37,78,85,0,1,0,1,1,1,2,9,2,20,62,0,1
+STU0908,Ishita Gupta,ishita.gupta25@college.edu,ECE,QA,4.0,75,84,0,0,0,1,0,1,3,9,2,7,81,2,1
+STU0909,Megha Kapoor,megha.kapoor60@college.edu,ISE,QA,7.31,77,71,0,1,0,0,0,0,4,7,0,0,97,0,1
+STU0910,Pallavi Gupta,pallavi.gupta89@college.edu,ISE,QA,9.14,79,80,0,1,1,0,1,1,3,10,2,2,100,4,1
+STU0911,Priya Joshi,priya.joshi24@college.edu,ISE,QA,8.27,76,63,0,0,0,0,0,1,4,9,0,67,100,2,1
+STU0912,Rishabh Dixit,rishabh.dixit4@college.edu,ISE,QA,7.19,80,78,0,0,1,1,1,2,1,6,1,24,62,4,1
+STU0913,Nandini Reddy,nandini.reddy33@college.edu,ECE,Data Analyst,7.24,91,70,0,0,1,0,1,0,3,4,0,23,76,4,1
+STU0914,Priya Joshi,priya.joshi91@college.edu,MECH,Cloud/DevOps,7.76,79,89,0,1,1,1,0,2,0,4,2,15,40,1,1
+STU0915,Ishita Shetty,ishita.shetty94@college.edu,ISE,QA,6.95,69,68,0,0,0,1,0,1,2,9,1,3,99,2,1
+STU0916,Arjun Verma,arjun.verma43@college.edu,ISE,Data Analyst,6.64,87,83,1,1,0,0,0,0,2,5,0,12,49,2,0
+STU0917,Sneha Gupta,sneha.gupta54@college.edu,ECE,Cloud/DevOps,7.13,76,67,0,0,0,0,0,1,3,10,0,16,67,2,1
+STU0918,Nikhil Rao,nikhil.rao16@college.edu,ISE,Data Analyst,5.37,67,65,0,0,0,0,0,0,4,3,1,0,62,0,0
+STU0919,Pallavi Mehta,pallavi.mehta2@college.edu,MECH,QA,7.2,68,69,0,0,0,0,0,0,2,10,3,30,64,3,1
+STU0920,Tushar Sharma,tushar.sharma78@college.edu,MECH,Data Analyst,8.59,84,74,0,1,1,1,0,1,3,6,1,31,70,3,1
+STU0921,Rachna Bhattacharya,rachna.bhattacharya59@college.edu,MECH,QA,8.05,89,76,1,0,0,1,1,1,2,4,0,16,100,2,1
+STU0922,Vivek Sharma,vivek.sharma32@college.edu,ECE,Data Analyst,7.41,74,69,0,0,1,1,0,0,3,3,1,25,50,2,0
+STU0923,Sneha Menon,sneha.menon8@college.edu,ECE,Full-Stack,8.38,94,75,0,1,0,0,0,1,0,5,1,41,56,1,0
+STU0924,Arjun Chopra,arjun.chopra43@college.edu,CSE,Full-Stack,5.95,92,65,0,0,1,0,0,1,2,4,1,12,50,5,1
+STU0925,Kunal Rao,kunal.rao21@college.edu,ECE,Data Analyst,5.78,65,72,0,1,1,1,0,0,0,10,3,0,53,4,0
+STU0926,Rachna Hegde,rachna.hegde5@college.edu,CSE,Cloud/DevOps,5.84,84,81,0,1,1,0,0,0,2,8,0,0,67,1,0
+STU0927,Divya Shetty,divya.shetty9@college.edu,MECH,Full-Stack,6.73,69,79,0,0,0,1,0,1,2,7,0,47,65,4,1
+STU0928,Sameer Iyer,sameer.iyer16@college.edu,ECE,Cloud/DevOps,7.54,73,74,0,1,0,1,0,2,3,9,0,4,49,0,1
+STU0929,Ishita Bose,ishita.bose90@college.edu,ISE,Full-Stack,4.0,74,74,0,1,1,1,0,0,1,4,0,36,63,1,0
+STU0930,Aman Reddy,aman.reddy62@college.edu,ECE,QA,7.95,80,74,0,1,0,0,0,1,1,8,0,0,75,1,1
+STU0931,Varun Gowda,varun.gowda17@college.edu,MECH,QA,5.32,69,100,0,1,1,0,0,1,3,10,0,14,31,2,1
+STU0932,Sneha Das,sneha.das91@college.edu,ECE,Data Analyst,7.11,81,72,0,1,1,0,0,2,3,3,1,0,64,4,1
+STU0933,Neha Patel,neha.patel60@college.edu,CSE,Data Analyst,8.91,81,59,0,1,1,0,0,0,0,9,0,43,63,1,0
+STU0934,Kunal Singh,kunal.singh43@college.edu,ECE,Data Analyst,6.52,81,77,1,1,1,1,1,0,4,3,0,7,66,1,0
+STU0935,Mohit Nair,mohit.nair89@college.edu,ECE,Cloud/DevOps,8.16,84,82,1,1,1,0,1,1,2,4,1,8,77,1,1
+STU0936,Megha Chopra,megha.chopra65@college.edu,ECE,Full-Stack,7.45,95,71,1,0,1,0,0,0,1,4,1,2,78,2,0
+STU0937,Meera Bhat,meera.bhat44@college.edu,MECH,Full-Stack,6.04,83,67,0,1,1,0,0,1,2,5,1,30,64,2,1
+STU0938,Siddharth Bhat,siddharth.bhat44@college.edu,MECH,QA,7.72,92,77,0,0,1,0,1,1,2,3,0,2,86,2,1
+STU0939,Anushka Iyer,anushka.iyer62@college.edu,ISE,QA,7.64,68,77,0,1,0,0,1,0,3,8,0,4,91,4,1
+STU0940,Nandini Mishra,nandini.mishra96@college.edu,CSE,Cloud/DevOps,7.0,80,67,0,1,0,0,0,2,1,8,2,25,62,2,1
+STU0941,Srishti Patel,srishti.patel27@college.edu,ECE,Cloud/DevOps,6.77,70,71,0,0,1,1,0,0,2,4,2,76,76,1,1
+STU0942,Kavya Raj,kavya.raj4@college.edu,ECE,QA,6.79,78,52,0,1,0,1,1,0,1,5,1,9,59,1,0
+STU0943,Aman Shetty,aman.shetty24@college.edu,CSE,Cloud/DevOps,8.3,100,80,0,1,0,0,1,1,1,8,2,40,75,1,1
+STU0944,Asha Singh,asha.singh35@college.edu,MECH,Full-Stack,7.3,70,100,0,0,1,0,0,0,2,10,0,16,93,2,1
+STU0945,Shruti Hegde,shruti.hegde58@college.edu,ECE,Data Analyst,8.67,81,74,0,1,0,0,1,0,0,7,2,13,86,2,1
+STU0946,Sneha Joshi,sneha.joshi48@college.edu,CSE,Data Analyst,8.11,87,88,0,1,1,1,0,0,3,4,1,0,71,4,1
+STU0947,Yash Patel,yash.patel62@college.edu,ISE,Data Analyst,4.95,73,92,1,0,1,0,0,0,3,8,3,0,77,3,1
+STU0948,Sameer Chopra,sameer.chopra42@college.edu,ISE,Full-Stack,7.38,63,55,0,1,0,0,0,0,2,5,0,0,47,0,0
+STU0949,Pooja Singh,pooja.singh59@college.edu,MECH,Full-Stack,9.84,80,89,0,1,1,1,0,1,2,3,0,1,78,1,1
+STU0950,Megha Singh,megha.singh88@college.edu,CSE,Cloud/DevOps,6.74,67,80,0,1,1,0,1,0,1,10,2,33,82,0,1
+STU0951,Arjun Desai,arjun.desai67@college.edu,ECE,Full-Stack,8.85,79,99,0,1,1,0,0,0,2,7,1,17,65,1,1
+STU0952,Mohit Bose,mohit.bose42@college.edu,ISE,Data Analyst,7.24,69,70,0,0,1,1,0,0,4,7,1,22,49,1,1
+STU0953,Anjali Chauhan,anjali.chauhan99@college.edu,MECH,Full-Stack,8.62,78,65,0,1,1,0,0,0,3,7,0,16,58,0,1
+STU0954,Kavya Verma,kavya.verma36@college.edu,CSE,Full-Stack,7.48,78,73,0,0,0,1,1,0,2,4,0,12,67,2,0
+STU0955,Pooja Gowda,pooja.gowda71@college.edu,ECE,Cloud/DevOps,8.28,94,63,0,1,0,1,0,1,4,5,2,35,100,1,1
+STU0956,Asha Kapoor,asha.kapoor74@college.edu,ISE,Data Analyst,7.42,87,72,0,0,1,0,0,0,4,4,1,6,85,3,1
+STU0957,Megha Bhat,megha.bhat70@college.edu,MECH,Full-Stack,5.78,79,70,0,0,1,0,0,0,1,5,1,23,62,1,0
+STU0958,Aditi Bhattacharya,aditi.bhattacharya87@college.edu,CSE,Full-Stack,9.42,86,56,2,1,1,1,0,0,3,9,0,0,43,2,0
+STU0959,Ananya Reddy,ananya.reddy55@college.edu,MECH,Data Analyst,7.5,80,68,0,0,1,0,0,1,3,10,0,41,60,1,1
+STU0960,Pallavi Gowda,pallavi.gowda40@college.edu,ECE,Data Analyst,8.27,87,85,0,1,1,0,0,1,2,4,0,17,65,1,1
+STU0961,Nandini Iyer,nandini.iyer12@college.edu,MECH,Full-Stack,9.52,79,65,0,0,0,0,0,0,1,10,0,36,68,3,0
+STU0962,Megha Agarwal,megha.agarwal61@college.edu,ISE,Data Analyst,9.75,81,82,0,0,1,0,0,0,3,5,0,11,100,1,1
+STU0963,Pallavi Mehta,pallavi.mehta47@college.edu,MECH,Data Analyst,8.06,81,89,0,0,0,1,0,0,0,8,0,42,83,2,0
+STU0964,Rishabh Agarwal,rishabh.agarwal63@college.edu,CSE,Full-Stack,7.29,68,74,0,1,1,0,1,0,3,10,0,0,81,1,1
+STU0965,Neha Gowda,neha.gowda62@college.edu,MECH,Data Analyst,7.27,76,78,0,0,1,0,1,2,1,7,1,3,70,1,1
+STU0966,Pranav Iyer,pranav.iyer66@college.edu,CSE,QA,7.28,72,70,3,0,0,0,0,1,1,4,1,0,59,2,0
+STU0967,Rishabh Kumar,rishabh.kumar39@college.edu,MECH,QA,4.78,70,72,3,0,1,0,0,0,0,9,0,36,72,4,0
+STU0968,Shruti Thakur,shruti.thakur71@college.edu,ISE,QA,7.34,72,61,0,1,1,1,0,0,3,9,1,42,99,0,1
+STU0969,Rohan Bhat,rohan.bhat27@college.edu,MECH,QA,10.0,83,67,0,1,0,1,0,0,4,8,2,0,56,3,1
+STU0970,Tushar Thakur,tushar.thakur23@college.edu,CSE,QA,6.73,96,86,1,1,0,1,1,2,1,4,1,0,82,2,1
+STU0971,Rachna Agarwal,rachna.agarwal42@college.edu,CSE,QA,6.51,67,90,0,1,0,0,0,0,1,5,1,3,77,0,0
+STU0972,Megha Bansal,megha.bansal9@college.edu,CSE,QA,6.5,90,75,0,0,0,0,0,0,1,8,1,9,70,2,0
+STU0973,Simran Gupta,simran.gupta12@college.edu,ISE,Data Analyst,7.96,52,78,0,1,0,0,0,0,1,3,2,57,80,2,1
+STU0974,Kavya Menon,kavya.menon58@college.edu,ECE,QA,5.9,77,44,0,1,1,0,0,2,2,10,2,15,59,2,1
+STU0975,Siddharth Bose,siddharth.bose88@college.edu,ECE,Cloud/DevOps,6.87,65,70,0,1,1,0,0,2,2,7,0,0,58,2,1
+STU0976,Swati Gowda,swati.gowda12@college.edu,CSE,QA,7.11,79,75,0,1,1,0,0,1,1,5,1,0,71,3,1
+STU0977,Nikhil Gupta,nikhil.gupta48@college.edu,CSE,Full-Stack,8.27,82,67,0,1,1,0,1,0,2,8,1,0,61,2,1
+STU0978,Neha Kapoor,neha.kapoor4@college.edu,ISE,QA,7.35,79,90,0,0,0,0,0,0,4,9,2,48,34,3,1
+STU0979,Mohit Chauhan,mohit.chauhan92@college.edu,MECH,QA,8.29,83,87,0,1,1,0,0,2,1,9,1,0,68,1,1
+STU0980,Swati Bose,swati.bose85@college.edu,ISE,QA,6.78,82,83,0,1,0,1,0,0,0,5,0,30,58,2,0
+STU0981,Siddharth Shetty,siddharth.shetty47@college.edu,MECH,Data Analyst,8.35,88,78,0,1,0,1,0,0,4,7,1,19,98,3,1
+STU0982,Nitin Iyer,nitin.iyer18@college.edu,CSE,Full-Stack,6.53,79,65,2,0,0,1,1,0,2,3,0,59,67,4,0
+STU0983,Kavya Sinha,kavya.sinha85@college.edu,MECH,Data Analyst,9.11,73,83,0,0,0,1,0,0,0,4,2,12,69,1,0
+STU0984,Karthik Mishra,karthik.mishra59@college.edu,MECH,Data Analyst,8.06,68,73,3,0,1,1,0,1,1,10,2,0,80,1,0
+STU0985,Dhruv Pandey,dhruv.pandey71@college.edu,MECH,QA,8.63,79,78,0,0,1,1,0,0,3,8,1,34,92,0,1
+STU0986,Abhishek Rao,abhishek.rao55@college.edu,CSE,QA,7.04,84,74,0,1,0,0,0,1,2,6,2,37,53,3,1
+STU0987,Asha Raj,asha.raj53@college.edu,ECE,Full-Stack,7.13,69,48,0,0,1,0,0,2,2,3,1,31,47,5,1
+STU0988,Aman Bhattacharya,aman.bhattacharya91@college.edu,ECE,Full-Stack,9.37,86,66,0,1,0,1,0,1,1,10,1,0,100,1,1
+STU0989,Ravi Reddy,ravi.reddy19@college.edu,ECE,QA,5.18,76,51,0,1,0,1,0,0,2,4,2,0,72,3,0
+STU0990,Ishita Reddy,ishita.reddy32@college.edu,MECH,Full-Stack,5.79,70,80,1,1,1,1,1,0,3,7,1,15,58,0,1
+STU0991,Pallavi Gupta,pallavi.gupta44@college.edu,CSE,QA,7.9,96,59,0,1,1,1,1,1,0,10,0,14,99,0,1
+STU0992,Dhruv Bhattacharya,dhruv.bhattacharya74@college.edu,ECE,QA,4.91,92,89,0,1,0,0,1,2,2,8,0,18,77,3,1
+STU0993,Nikhil Kapoor,nikhil.kapoor22@college.edu,CSE,Cloud/DevOps,6.77,93,58,0,0,1,1,0,0,0,7,0,2,36,2,0
+STU0994,Ananya Bhattacharya,ananya.bhattacharya75@college.edu,ISE,Full-Stack,8.71,76,61,0,1,1,0,0,0,2,7,2,10,63,4,1
+STU0995,Pallavi Patel,pallavi.patel37@college.edu,MECH,Full-Stack,8.61,67,100,1,1,0,0,0,1,2,5,1,14,90,1,1
+STU0996,Dhruv Kumar,dhruv.kumar36@college.edu,ECE,Data Analyst,8.83,74,56,0,1,0,0,0,0,1,7,0,36,68,2,0
+STU0997,Anjali Mehta,anjali.mehta2@college.edu,CSE,Data Analyst,7.24,82,78,0,1,1,1,0,2,1,5,0,0,71,1,1
+STU0998,Nitin Dixit,nitin.dixit48@college.edu,ISE,Cloud/DevOps,6.95,66,88,2,1,1,0,0,0,3,6,1,3,53,5,0
+STU0999,Simran Rao,simran.rao68@college.edu,CSE,Cloud/DevOps,9.05,84,64,0,1,1,0,0,0,3,4,0,32,64,1,1
+STU1000,Kavya Menon,kavya.menon64@college.edu,MECH,QA,9.69,84,89,0,1,1,0,0,1,3,6,2,11,55,1,1
