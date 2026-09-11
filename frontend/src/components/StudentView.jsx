@@ -21,6 +21,8 @@ import {
   BookOpen, 
   AlertCircle, 
   CheckCircle2, 
+  XCircle,
+  Building,
   TrendingUp, 
   UploadCloud, 
   FileText, 
@@ -1211,6 +1213,62 @@ export default function StudentView() {
                   ))}
                 </div>
               </div>
+
+              {/* TARGET COMPANY ELIGIBILITY */}
+              {result.company_eligibility && (
+                <div className="glass-card p-5 rounded-2xl relative overflow-hidden mt-6">
+                  <div className="flex items-center gap-2 mb-4">
+                    <Building className="w-5 h-5 text-purple-400" />
+                    <h3 className="text-sm font-bold font-display text-white">
+                      Target Company Eligibility
+                    </h3>
+                  </div>
+                  
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {result.company_eligibility.map((company, idx) => (
+                      <div 
+                        key={idx} 
+                        className={`p-4 rounded-xl border ${
+                          company.eligible 
+                            ? 'bg-emerald-500/10 border-emerald-500/30' 
+                            : 'bg-slate-900/60 border-slate-700/60'
+                        }`}
+                      >
+                        <div className="flex items-center justify-between mb-2">
+                          <h4 className={`font-bold ${company.eligible ? 'text-emerald-400' : 'text-slate-300'}`}>
+                            {company.name}
+                          </h4>
+                          {company.eligible ? (
+                            <CheckCircle2 className="w-5 h-5 text-emerald-400" />
+                          ) : (
+                            <AlertCircle className="w-5 h-5 text-slate-500" />
+                          )}
+                        </div>
+                        
+                        {company.eligible ? (
+                          <p className="text-xs font-medium text-emerald-300/80 flex items-center gap-1.5 mt-2">
+                            <Sparkles className="w-3.5 h-3.5" /> You meet historical criteria!
+                          </p>
+                        ) : (
+                          <div className="mt-3">
+                            <p className="text-[11px] text-slate-400 font-semibold uppercase tracking-wider mb-2">
+                              Action Required:
+                            </p>
+                            <ul className="space-y-1.5">
+                              {company.missing.map((miss, i) => (
+                                <li key={i} className="text-xs text-slate-300 flex items-start gap-1.5">
+                                  <XCircle className="w-3.5 h-3.5 text-red-400/80 shrink-0 mt-0.5" />
+                                  <span>{miss}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
 
             </div>
           )}

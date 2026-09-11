@@ -55,6 +55,43 @@ class StudentData(BaseModel):
     user_name: Optional[str] = ""
     user_email: Optional[str] = ""
 
+COMPANIES = {
+    "Google (SWE)": {"cgpa": 8.5, "backlogs": 0, "projects": 3, "python": 1},
+    "TCS Digital": {"cgpa": 7.0, "projects": 1, "aptitude_score": 75},
+    "Atlassian (SDE)": {"cgpa": 8.0, "react": 1, "sql": 1, "internships": 1},
+    "AWS (Cloud)": {"cgpa": 7.5, "devops": 1, "certifications": 1},
+}
+
+def evaluate_companies(data: StudentData):
+    results = []
+    for comp, reqs in COMPANIES.items():
+        missing = []
+        if data.cgpa < reqs.get("cgpa", 0):
+            missing.append(f"Needs CGPA >= {reqs['cgpa']} (Current: {data.cgpa})")
+        if data.backlogs > reqs.get("backlogs", 10):
+            missing.append(f"Needs <= {reqs['backlogs']} backlogs (Current: {data.backlogs})")
+        if data.projects < reqs.get("projects", 0):
+            missing.append(f"Needs {reqs['projects']}+ projects (Current: {data.projects})")
+        if data.aptitude_score < reqs.get("aptitude_score", 0):
+            missing.append(f"Needs Aptitude >= {reqs['aptitude_score']} (Current: {data.aptitude_score})")
+        if data.internships < reqs.get("internships", 0):
+            missing.append(f"Needs {reqs['internships']}+ internships")
+        if data.certifications < reqs.get("certifications", 0):
+            missing.append(f"Needs {reqs['certifications']}+ certifications")
+        
+        # Skill requirements
+        if reqs.get("python", 0) and not data.python: missing.append("Needs Python skill")
+        if reqs.get("sql", 0) and not data.sql: missing.append("Needs SQL skill")
+        if reqs.get("react", 0) and not data.react: missing.append("Needs React skill")
+        if reqs.get("devops", 0) and not data.devops: missing.append("Needs DevOps/Cloud skill")
+        
+        results.append({
+            "name": comp,
+            "eligible": len(missing) == 0,
+            "missing": missing
+        })
+    return results
+
 @app.post("/predict")
 def predict(data: StudentData):
     if not model:
@@ -131,6 +168,18 @@ def predict(data: StudentData):
         t_input['track_encoded'] = t_enc
         t_prob = model.predict_proba(t_input)[0][1]
         track_confidence[t] = int(t_prob * 100)
+
+    company_eligibility = evaluate_companies(data)
+
+    return {
+        "student_id": "simulated",
+        "probability": readiness_score,
+        "readiness": status,
+        "track_confidence": track_confidence,
+        "shap_factors": impacts,
+        "roadmap": roadmap,
+        "company_eligibility": company_eligibility
+    }
 
 
 @app.post("/send_roadmap/{student_id}")
