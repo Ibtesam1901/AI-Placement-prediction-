@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import html2pdf from 'html2pdf.js';
 import { getPrediction } from '../api/client';
 import { 
   BarChart, 
@@ -126,6 +127,22 @@ export default function StudentView() {
   const [activeTab, setActiveTab] = useState('manual'); // manual | csv
   const fileInputRef = useRef(null);
   const [fileName, setFileName] = useState('');
+  const [isGeneratingPdf, setIsGeneratingPdf] = useState(false);
+  
+  const handleDownloadPdf = () => {
+    setIsGeneratingPdf(true);
+    const element = document.getElementById('pdf-report-content');
+    const opt = {
+      margin: 5,
+      filename: `AI_Placement_Report_${formData.user_name || 'Candidate'}.pdf`,
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { scale: 2, useCORS: true, backgroundColor: '#090d16' },
+      jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+    html2pdf().set(opt).from(element).save().then(() => {
+      setIsGeneratingPdf(false);
+    });
+  };
   
   // What-If Simulator state
   const [simProjects, setSimProjects] = useState(0);
@@ -794,7 +811,7 @@ export default function StudentView() {
               </p>
             </div>
           ) : (
-            <div className="space-y-6 animate-slide-up-fade">
+            <div id="pdf-report-content" className="space-y-6 animate-slide-up-fade p-2 rounded-xl">
               
               {/* TOP KPI ROW: HERO GAUGE + BADGES */}
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -1167,10 +1184,15 @@ export default function StudentView() {
                     Personalized AI Action Roadmap
                   </h3>
                   <button 
-                    onClick={() => window.print()}
-                    className="px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-300 flex items-center gap-1.5 transition-colors border border-slate-700"
+                    onClick={handleDownloadPdf}
+                    disabled={isGeneratingPdf}
+                    className="px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-300 flex items-center gap-2 transition-colors border border-slate-700 disabled:opacity-50"
                   >
-                    <Printer className="w-3.5 h-3.5" /> Print Report
+                    {isGeneratingPdf ? (
+                      <><RefreshCw className="w-3.5 h-3.5 animate-spin" /> Generating PDF...</>
+                    ) : (
+                      <><Printer className="w-3.5 h-3.5" /> Download PDF Report</>
+                    )}
                   </button>
                 </div>
 

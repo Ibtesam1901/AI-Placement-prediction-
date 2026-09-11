@@ -9,6 +9,10 @@ import numpy as np
 from roadmap_engine import generate_roadmap
 import uuid
 from typing import Optional
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = FastAPI(title="Campus Guardian API")
 
@@ -151,17 +155,34 @@ def send_roadmap(student_id: str, data: dict = {}):
         from email.message import EmailMessage
         msg = EmailMessage()
         msg['Subject'] = f"Your Personalized Placement Roadmap"
-        msg['From'] = "no-reply@campusguardian.edu"
+        
+        smtp_email = os.getenv('SMTP_EMAIL')
+        smtp_password = os.getenv('SMTP_PASSWORD')
+        
+        msg['From'] = smtp_email if smtp_email else "no-reply@campusguardian.edu"
         msg['To'] = email
         body = f"Hi {student_id},\n\nHere is your personalized roadmap for the {target_track} track:\n\n" + "\n".join(roadmap) + "\n\nBest regards,\nPlacement Team"
         msg.set_content(body)
-        # Attempt to send via localhost SMTP (dev), ignore failures
-        try:
-            import smtplib
-            with smtplib.SMTP('localhost') as s:
-                s.send_message(msg)
-        except Exception as e:
-            print(f"Email send failed (dev mode): {e}")
+        
+        import smtplib
+        if smtp_email and smtp_password:
+            try:
+                print(f"Attempting to send email via Gmail SMTP to {email}...")
+                with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+                    server.login(smtp_email, smtp_password)
+                    server.send_message(msg)
+                print("Email sent successfully!")
+            except Exception as e:
+                print(f"SMTP SSL Email send failed: {e}")
+        else:
+            print("SMTP_EMAIL or SMTP_PASSWORD not set in .env, falling back to local mock server.")
+            # Attempt to send via localhost SMTP (dev), ignore failures
+            try:
+                with smtplib.SMTP('localhost') as s:
+                    s.send_message(msg)
+            except Exception as e:
+                print(f"Email send failed (dev mode): {e}")
+                
         return {"status": "roadmap_sent", "roadmap": roadmap}
     except Exception as e:
         print(f"Error in send_roadmap: {e}")

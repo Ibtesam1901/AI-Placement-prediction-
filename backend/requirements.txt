@@ -5,3 +5,4 @@ pandas
 shap
 joblib
 pydantic
+python-dotenv
