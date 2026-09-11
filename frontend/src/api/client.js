@@ -167,13 +167,13 @@ export async function getAtRiskStudents() {
   }
   return {
     at_risk_students: [
-      { id: 'STU0104', name: 'Rohan Sharma', branch: 'ECE', track: 'Cloud/DevOps', score: 38, missing_skill: 'DevOps', cgpa: 6.4, backlogs: 2 },
-      { id: 'STU0112', name: 'Pooja Hegde', branch: 'MECH', track: 'Data Analyst', score: 42, missing_skill: 'SQL', cgpa: 6.8, backlogs: 1 },
-      { id: 'STU0145', name: 'Aditya Rao', branch: 'CSE', track: 'Full-Stack', score: 54, missing_skill: 'React', cgpa: 7.1, backlogs: 1 },
-      { id: 'STU0189', name: 'Sneha Patel', branch: 'ISE', track: 'Full-Stack', score: 48, missing_skill: 'SQL', cgpa: 6.6, backlogs: 0 },
-      { id: 'STU0210', name: 'Karthik Gowda', branch: 'ECE', track: 'Cloud/DevOps', score: 34, missing_skill: 'Python', cgpa: 5.9, backlogs: 3 },
-      { id: 'STU0255', name: 'Meera Nair', branch: 'CSE', track: 'QA', score: 52, missing_skill: 'SQL', cgpa: 7.0, backlogs: 0 },
-      { id: 'STU0298', name: 'Varun Joshi', branch: 'MECH', track: 'Full-Stack', score: 29, missing_skill: 'React', cgpa: 5.8, backlogs: 4 }
+      { id: 'STU0104', name: 'Rohan Sharma', branch: 'ECE', track: 'Cloud/DevOps', score: 38, missing_skill: 'DevOps', cgpa: 6.4, backlogs: 2, eligible_companies: ['None'] },
+      { id: 'STU0112', name: 'Pooja Hegde', branch: 'MECH', track: 'Data Analyst', score: 42, missing_skill: 'SQL', cgpa: 6.8, backlogs: 1, eligible_companies: ['None'] },
+      { id: 'STU0145', name: 'Aditya Rao', branch: 'CSE', track: 'Full-Stack', score: 54, missing_skill: 'React', cgpa: 7.1, backlogs: 1, eligible_companies: ['TCS Digital'] },
+      { id: 'STU0189', name: 'Sneha Patel', branch: 'ISE', track: 'Full-Stack', score: 48, missing_skill: 'SQL', cgpa: 6.6, backlogs: 0, eligible_companies: ['None'] },
+      { id: 'STU0210', name: 'Karthik Gowda', branch: 'ECE', track: 'Cloud/DevOps', score: 34, missing_skill: 'Python', cgpa: 5.9, backlogs: 3, eligible_companies: ['None'] },
+      { id: 'STU0255', name: 'Meera Nair', branch: 'CSE', track: 'QA', score: 52, missing_skill: 'SQL', cgpa: 7.0, backlogs: 0, eligible_companies: ['TCS Digital'] },
+      { id: 'STU0298', name: 'Varun Joshi', branch: 'MECH', track: 'Full-Stack', score: 29, missing_skill: 'React', cgpa: 5.8, backlogs: 4, eligible_companies: ['None'] }
     ],
     is_mock: true
   };

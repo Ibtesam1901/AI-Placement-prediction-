@@ -312,6 +312,32 @@ def tpo_at_risk():
             if row['devops'] == 0:
                 missing_skills.append("DevOps")
             top_missing = missing_skills[0] if missing_skills else "Communication"
+            
+            # Evaluate company eligibility
+            sd = StudentData(
+                branch=row['branch'],
+                target_track=row['target_track'],
+                cgpa=row['cgpa'],
+                tenth_percent=row['tenth_percent'],
+                twelfth_percent=row['twelfth_percent'],
+                backlogs=row['backlogs'],
+                python=row['python'],
+                sql=row['sql'],
+                react=row['react'],
+                devops=row['devops'],
+                internships=row['internships'],
+                projects=row['projects'],
+                comm_score=row['comm_score'],
+                certifications=row['certifications'],
+                open_source_commits=row['open_source_commits'],
+                aptitude_score=row['aptitude_score'],
+                extracurriculars=row['extracurriculars']
+            )
+            comps = evaluate_companies(sd)
+            eligibles = [c['name'] for c in comps if c['eligible']]
+            if not eligibles:
+                eligibles = ["None"]
+                
             at_risk_list.append({
                 "id": row.get('student_id', f"STU{i:04d}"),
                 "name": row.get('name', 'Unknown'),
@@ -319,7 +345,8 @@ def tpo_at_risk():
                 "branch": row['branch'],
                 "track": row['target_track'],
                 "score": score,
-                "missing_skill": top_missing
+                "missing_skill": top_missing,
+                "eligible_companies": eligibles
             })
         return {"at_risk_students": at_risk_list}
     except Exception as e:

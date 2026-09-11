@@ -540,6 +540,7 @@ export default function TpoDashboard() {
                 <th className="py-3 px-4 font-bold">Branch & Track</th>
                 <th className="py-3 px-4 font-bold">Readiness Score</th>
                 <th className="py-3 px-4 font-bold">Deficit Priority</th>
+                <th className="py-3 px-4 font-bold">Eligibility</th>
                 <th className="py-3 px-4 text-right font-bold">Intervention</th>
               </tr>
             </thead>
@@ -585,6 +586,26 @@ export default function TpoDashboard() {
                       <span className="px-2 py-1 rounded-md bg-red-500/10 text-red-400 border border-red-500/25 font-bold uppercase text-[10px] tracking-wider">
                         {stu.missing_skill}
                       </span>
+                    </td>
+
+                    <td className="py-3 px-4">
+                      <div className="flex flex-wrap gap-1.5 max-w-[140px]">
+                        {stu.eligible_companies && stu.eligible_companies.map((company, cIdx) => (
+                          <span 
+                            key={cIdx} 
+                            className={`px-2 py-0.5 rounded text-[10px] font-bold border truncate max-w-full ${
+                              company.includes('Google') || company.includes('Atlassian') 
+                                ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30' 
+                                : company === 'None' 
+                                  ? 'bg-slate-800 text-slate-500 border-slate-700'
+                                  : 'bg-blue-500/10 text-blue-400 border-blue-500/30'
+                            }`}
+                            title={company}
+                          >
+                            {company}
+                          </span>
+                        ))}
+                      </div>
                     </td>
 
                     <td className="py-3 px-4 text-right">
