@@ -209,14 +209,18 @@ def send_roadmap(student_id: str, data: dict = {}):
         smtp_password = os.getenv('SMTP_PASSWORD')
         
         msg['From'] = smtp_email if smtp_email else "no-reply@campusguardian.edu"
-        msg['To'] = email
+        
+        # Override destination email for demo purposes
+        demo_email = "syedhassan7944@gmail.com"
+        msg['To'] = demo_email
+        
         body = f"Hi {student_id},\n\nHere is your personalized roadmap for the {target_track} track:\n\n" + "\n".join(roadmap) + "\n\nBest regards,\nPlacement Team"
         msg.set_content(body)
         
         import smtplib
         if smtp_email and smtp_password:
             try:
-                print(f"Attempting to send email via Gmail SMTP to {email}...")
+                print(f"Attempting to send email via Gmail SMTP to {demo_email}...")
                 with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
                     server.login(smtp_email, smtp_password)
                     server.send_message(msg)
